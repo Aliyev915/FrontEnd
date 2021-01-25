@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    overflow-x: hidden;
+    color: #535353;
+}
+
+.login{
+    max-width: 400px;
+    color: #7c7c7c;
+    margin: 60px auto;
+    text-align: center;
+    border-radius: 10px 10px 0 0;
+    box-shadow: 0 0 35px rgba(0, 0, 0, 0.1);
+}
+.login-body{
+    padding: 25px 30px 30px;
+    background: #fff;
+    border-radius: 10px 10px 0 0;
+}
+.login .logo{
+    display: flex;
+    justify-content: center;
+}
+.login .logo img{
+    height: 40px;
+}
+.login .title h5{
+    color: #4d4d4d;
+    margin: 20px 0;
+}
+.login .input-text{
+    width: 100%;
+    padding: 10px 15px;
+    font-size: 13px;
+    border: 1px solid #e8e7e7;
+    outline: none;
+    color: #717171;
+    border-radius: 3px;
+    height: 45px;
+}
+.checkbox{
+    margin: 25px 0;
+    padding: 10px 15px;
+}
+.checkbox a{
+    color: #535353;
+    text-decoration: none;
+}
+.btn-md{
+    cursor: pointer;
+    padding: 13px 30px 11px 30px;
+    letter-spacing: 1.5px;
+    font-size: 14px;
+    font-weight: 500;
+    text-transform: uppercase;
+    border-radius: 3px;
+    border: none;
+    background: #376bff;
+    color: #fff;
+}
+
+.sosial ul li{
+    display: inline-block;
+    margin: 0 10px;
+    padding: 5px 10px;
+    border-radius: 3px;
+}
+.sosial ul li a{
+    color: #fff;
+}
+.facebook{
+    background-color: #4867aa;
+}
+.twitter{
+    background-color: #33ccff;
+}
+.google{
+    background-color: #db4437;
+}
+.linkedin{
+    background-color: #0177b5;
+}
+
+.login-footer{
+    background-color: #e6e6e6;
+    padding: 10px 20px;
+}
+
+.login-footer a{
+    color: #376bff;
+    text-decoration: none;
+}

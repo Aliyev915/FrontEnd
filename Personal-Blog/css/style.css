@@ -1,0 +1,1242 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background-color: #000000;
+    overflow-x: hidden ;
+    overflow-y: scroll;
+    /* cursor: none; */
+}
+/* header navbar */
+header{
+    height: 50px;
+    background-color: #212529;
+    width: 100%;
+}
+.logo{
+    background-color: #212529;
+    width: 150px;
+    height:50px;
+}
+.logo img{
+    color: #212529;
+    width: 100%;
+    height:100%;
+}
+header button{
+    color:white;
+    background-color: #6f9a37;
+    padding: 5px 15px;
+    font-size: 14px;
+    height: 30px;
+    margin-top: 10px;
+    font-weight: 500;
+    box-shadow:0 2px 0 #6f9a37;
+    border: none;
+    border-radius: 10px;
+}
+header p{
+    color: #888888;
+    font-size: 14px;
+    margin-top: 15px;
+    margin-left: 20px;
+}
+header p .fa-times{
+    color: white;
+    font-size: 16px;
+    margin-right: 10px;
+}
+
+/* header navbar */
+
+
+.cursor{
+    height: 20px;
+    width: 20px;
+    border: 1px solid #00c483;
+    border-radius: 50%;
+    position: absolute;
+    z-index: 100;
+    transition: 0.0042s;
+}
+
+
+
+.contanier-fluid{
+    overflow-x: hidden !important;
+}
+
+/* Scroll-bar */
+::-webkit-scrollbar{
+    width: 5px;
+}
+
+::-webkit-scrollbar-track{
+    background-color: #212529;
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: #333333;
+
+}
+/* Scroll-bar */
+
+
+.contentPage{
+    width: 82%;
+    height: 400px;
+    margin: auto;
+    position: relative;
+    margin-top: 100px;
+}
+
+
+/* Navbar */
+.Navbar{
+    background-color: #212529;
+    height: 400px;
+    width: 85px;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left: 51%;
+}
+
+.burger{
+    background-color: #00c483;
+    padding:15px 20px;
+    width: 100%;
+    height: 75px;
+}
+
+.burger .line{
+    background-color: #212529;
+    height: 3px;
+    margin-top: 10px;
+    transition: all .8s;
+}
+.burger:hover{
+    transform: scale(1.02);
+}
+
+.userdetails{
+    margin-top: 20px;
+    color: white;
+}
+
+.userdetails div{
+    width: 85%;
+    height: 60px;
+    border-radius: 50%;
+    padding: 15px 25px;
+    margin: 0 auto;
+}
+
+.userdetails div i{
+    font-size: 25px;
+}
+.userdetails div:hover{
+    border: 1px solid #00c483;
+    color: #00c483 !important;
+}
+
+/* Navbar */
+
+/* Background-image */
+.developer{
+    background-color: #212529;
+    height: 500px;
+    width: 351px;
+    background-image:url("https://w5.themedemo.co/niko/black/wp-content/uploads/sites/4/2019/03/niko_img.jpg");
+    background-size: cover;
+    position:relative;
+    background-position: center;
+    top:-50px;
+    left: 7%;
+}
+
+.name{
+    position: absolute;
+    top: 50%;
+    color: white;
+    font-size: 54px;
+    font-weight: 900;
+    left: 15%;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.profession{    
+    color: #00c483;
+    position: absolute;
+    top:76%;
+    left: 37%;
+    font-weight: 900;
+    font-size: 18px;
+}
+
+.social{
+    position: absolute;
+    top:85%;
+    left: 25%;
+}
+
+.social ul li {
+    display: inline-block;
+}
+
+.social ul li a{
+    color: white;
+}
+
+.social ul li i{
+    font-size: 18px;
+    text-align: center;
+}
+
+.social ul li div{
+    width: 40px;
+    height: 40px;
+    padding: 7px 12px;
+    transition: all .3s;
+    border-radius: 50%;
+}
+
+.social ul li div:hover{
+    border: 1px solid #00c483;
+}
+
+/* Background-image */
+
+
+.thirdsection{
+    height: 400px;
+    position: relative;
+}
+.thirdsection>div{
+    background-color: #212529;
+}
+/* the third section of the page. It consists of 5 parts:
+Info,
+Adress,
+Guide,
+Works,
+Education*/
+
+
+
+/* Info Developers, some lucks and Services */
+.info,.adress,.guide,.Works,.Education,.sample,.Content{
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.info,.adress,.guide,.Works,.Education,.sample,.Content{
+    position: absolute;
+    height: 100%;
+    background-color: #212529;
+    width: 0%;
+    transition: width 1.5s;
+    top: 0;
+    left: 0;
+}
+
+.info,.Content{
+    width: 100%;
+}
+.info>*,.adress>*,.guide>*,.Works>*,.Education>*,.sample>*,.Content>*{
+    padding: 0 20px;
+}
+.info .about{
+    padding-bottom: 20px;
+
+}
+.info .about h1,.sample h1{
+    color: white;
+    font-weight: bold;
+    font-size: 65px;
+}
+.infoMe{
+    border-bottom: 1px solid #333333;
+}
+.info .about div{
+    display: inline-block;
+    color: #00c483;
+    line-height: 3.5;
+    font-size: 18px;
+    font-weight: bold;
+    padding-right: 15px;
+}
+.info .about div:nth-child(2)::after,.info .about div:nth-child(3)::after{
+    content: ' / ';
+    color:#888888;
+}
+
+.infoMe{
+    position: relative;
+}
+
+.infoMe p{
+    color: #888888;
+    font-size: 15px;
+}
+/* About */
+
+/* Service */
+.service h1{
+    font-size: 40px;
+    font-weight: 900;
+    line-height: 2.5;
+}
+
+.service h5{
+    font-size: 22px;
+    font-weight: bold;
+    line-height: 2.5;
+}
+.service i{
+    color: #00c483;
+    font-size: 20px;
+}
+
+.service p{
+    font-size: 15px;
+    color: #888888;
+    line-height: 2;
+}
+
+.pricing,.facts,.service,.contactList{
+    color: white;
+    border-bottom: 1px solid #333333;
+    padding-bottom: 50px; 
+}
+
+.pricing h2,.facts h2,.clients h2{
+    font-size: 40px;
+    font-weight: 900;
+    line-height: 2.5;
+}
+.pricing>div{
+    text-align: center;
+}
+.pricing h4{
+    font-weight: 900;
+}
+.pricing .price{
+    color: #00c483;
+    font-weight: 900;
+}
+.price *{
+    display: inline-block;
+}
+
+.price h1{
+    font-size: 50px;
+}
+
+.price h3{
+    vertical-align: text-bottom;
+    font-size: 35px;
+}
+
+.pricing li{
+    line-height: 2;
+    list-style-type: none;
+}
+
+.pricing button{
+    padding: 4px 12px;
+    font-size: 11px;
+    background-color: #212529;
+    border-color: #00c483;
+    color: #00c483;
+    font-weight: bold;
+}
+.pricing button:hover{
+    color: #212529;
+    background-color: #00c483;
+}
+/* Service */
+
+
+/* Facts */
+.facts .count{
+    font-size: 20px;
+    color: #00c483;
+    text-align: center;
+    font-weight: bold;
+}
+.facts p{
+    font-size: 12px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.clients{
+    color: white;
+    padding-bottom: 50px;
+}
+.clients img{
+    padding: 10px;
+    transition: all 0.3s;    
+}
+ 
+.clients img:hover{
+    transform: scale(1.04);
+}
+/* Facts */
+
+
+.navbarMenu{
+    width: 350px;
+    background-color: #212529;
+    height: 92vh;
+    position: absolute;
+    left: 0;
+    top: 53px;
+    z-index: 10;
+    overflow-y: scroll;
+    transform: translateX(-350px);
+    transition: all 0.8s;
+}
+
+/* Search-menu */
+.SearchMenu,.Archive,.dropDown,.categories, .pages, .message,.message-reply{
+    padding: 24px 20px;
+    border-bottom: 1px solid #333333;
+}
+.Search {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #333333;
+}
+.Search input,.dropDown select{
+    display: inline-block;
+    width: 280px;
+    padding: 5px 14px;
+    background-color: #212529;
+    outline: none;
+    border: none;
+    font-size: 14px;
+}
+.Search .fa-search{
+    color: #00c483;
+    font-size: 14px;
+    margin-top: 7px;
+}
+
+/* Search-menu */
+
+.Archive h3,.dropDown h3,.categories h3, .pages h3,.message h3,.message-reply h3,.Content h3{
+    color: white;
+    font-weight: 900;
+    font-size: 30px;
+}
+
+.Archive ul li a, .categories ul li a, .pages ul li a{
+    color: #888888;
+    text-decoration: none;
+    line-height: 2.5;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    transition: color 0.8s;
+}
+
+.navbarMenu div ul li a:hover{
+    color: #00c483;
+}
+
+.dropDown {
+    position: relative;
+}
+.dropDown select{
+    -webkit-appearance: none;
+    border-bottom: 2px solid #333333;
+    color: #888888;
+    font-size:14px ;
+}
+
+.dropDown select option{
+    background-color: white;
+    color: #888888;
+    font-size: 12px;
+}
+.dropDown::after{
+    content:'▼';
+    color: #00c483;
+    position: absolute;
+    top: 75px;
+    right: 55px;
+    font-size: 14px;
+}
+
+.pages{
+    margin-bottom: 30px;
+}
+/* Info Developers, some lucks and Services */
+
+
+/* Address,map,email */
+.adress p{
+    color: #888888;
+    font-size: 15px;
+    font-weight: 500;
+    margin-top: -20px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    line-height: 2;
+}
+
+.mapping{
+    position: relative;
+}
+
+.dismissButton{
+    background-color: #fff;
+    border: 1px solid #dadce0;
+    color: #1a73e8;
+    border-radius: 4px;
+    font-family: Roboto,sans-serif;
+    font-size: 14px;
+    height: 36px;
+    cursor: pointer;
+    padding: 0 24px;
+}
+
+.contactList{
+    color: white;
+    margin-top: 20px;
+}
+
+.contactList ul li{
+    list-style-type: none;
+    line-height: 2;
+}
+
+.contactList ul li a{
+    color: white;
+    text-decoration: none;
+    transition: color 0.5s;
+}
+.contactList ul li a:hover{
+    color: #00c483;
+}
+
+.contactList i{
+    color: #00c483;
+    margin-right: 5px;
+}
+
+.message h3,.message-reply h3 {
+    text-indent: -15px;
+}
+
+.message form,.message-reply form{
+    color: #333333;
+}
+
+.message form input,.message-reply form input{
+    background-color: #212529;
+    padding: 20px 0;
+    width: 100%;
+    border: none;
+    margin-bottom: 15px;
+    border-bottom: 1px solid #333333;
+    font-family: roboto sans-serif;
+    outline: none;
+    font-size: 21px;
+    outline: none;
+}
+
+.message form input:nth-child(4){
+    padding: 40px 0; 
+}
+
+.message button,.message-reply button{
+    background-color: #00c483;
+    color: #333333;
+    font-size: 15px;
+    padding: 10px 15px;
+    margin-top: 20px;
+    border: 1px solid #00c483;
+    transition: color 0.5s;
+}
+
+.message button:hover,.message-reply button:hover{
+    color: #00c483;
+    background-color: #212529;
+}
+
+/* Address,map,email */
+
+/* blog,guide,about Works */
+.guide{
+    color: #888888;
+    font-family:roboto sans-serif;
+    padding-top: 20px;
+}
+.guide .design,.guide .Media,.guide .help,.guide .anything,.guide .wordpress,.guide .party{
+    height: 165px;
+    margin-bottom: 20px;
+}
+.party{
+    margin-left: 110%;
+    width: 95%;
+}
+.guide a,.June a,.April a,.March a,.February a,.January a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16.5px;
+    transition: color 0.5;
+}
+
+a:hover{
+    color: #00c483;
+}
+.datetime{
+    color: #212529;
+    background-color: #00c483;
+    font-size: 12px;
+    padding: 4px 10px;
+    width: 125px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.guide>div:last-child,.June:last-child,.April:last-child,.March:last-child,.February:last-child,.January:last-child{
+    color: #888888;
+    font-size: 13px;
+}
+
+.blackman,.bitmap,.person,.flower{
+    width: 95%;
+    height:165px;
+}
+.blackman img,.bitmap img,.person img,.flower img{
+    width: 100%;
+    height: 100%;
+}
+/* blog,guide,about Works */
+
+
+/* Works,Development,Web,Mobile App */
+.Works .wall,.Works .end, .Works .oxyde{
+    width: 100%;
+    height: 500px;
+    padding: 20px 0;
+    margin-top: 20px;
+    position: relative;
+}
+
+.Works .choices ul li{
+    display: inline;
+    color: white;
+    font-size: 14px;
+    list-style-type: none;
+    margin-left: 10px;
+    font-weight: bold;
+    transition: color 0.5s;
+}
+
+.Works .orchidey,.Works .emerald{
+    width: 100%;
+    height: 350px;
+    padding: 20px 5px;
+    margin-top: 20px;
+    position: relative;
+}
+
+.Works .broken,.Works .yupi{
+    width: 100%;
+    height: 400px;
+    padding: 5px;
+    margin-top: 20px;
+    position: relative;
+}
+
+.emerald{
+    top: -370px;
+    left: 110%;
+}
+.broken{
+    top: -32%;
+}
+.yupi{
+    top: -52%;
+}
+
+.Works  img{
+    width:100%;
+    height: 100%;
+}
+
+.overLay{
+    position: absolute;
+    width: 90%;
+    height: 80%;
+    margin: auto;
+    top: 10%;
+    left: 5%;
+    background-color: black;
+    opacity: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: opacity 0.5s;
+}
+
+.Works a{
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.5s;
+}
+
+.Works p{
+    color: #888888;
+    font-size: 12px;
+}
+
+.Works .row>div:hover .overLay
+{
+    opacity: 0.8;
+}
+
+.Works a:hover{
+    color: #00c483;
+}
+
+/* Works,Development,Web,Mobile App */
+
+
+
+/* Carrier:School,Experice */
+.Education .text,.Education .skill{
+    color: #888888;
+    padding: 40px 20px;
+    font-size: 15px;
+    font-weight: 400;
+    border-bottom: 1px solid #333333;
+}
+
+
+.Education .skill h3{
+    color: white;
+    font-size: 30px;
+    font-weight: 900;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.Education .skill i{
+    color: #00c483;
+    margin-right: 20px;
+}
+
+.progressBar{
+    color: white;
+    font-weight: 900;
+    margin-top: 30px;   
+}
+
+.progressBar [class*="bar"]{
+    background-color: #333333;
+    height: 4px;
+    width: 95%;
+    margin-bottom: 20px;
+} 
+
+.progressBar .progress{
+    width: 5%;
+    height: 100%;
+    background-color: #00c483;
+}
+
+.indicator{
+    width: 95%;
+}
+.indicator .perCent{
+    color: #00c483;
+}
+
+.carrier{
+    color: white;
+    margin-top: 50px;
+}
+
+.carrier i{
+    color: #00c483;
+    margin-right: 20px;
+}
+
+.school,.job{
+    margin-top: 30px;
+    font-family: roboto sans-serif;
+}
+.school>div,.job>div{
+    margin-bottom:10px;
+}
+.carrier .year{
+    color: #00c483;
+    font-size: 12px;
+    font-weight: bold;
+
+}
+.carrier .name{
+    color: white;
+    font-weight: 900;
+    font-size: 18px;
+    position: static;
+}
+
+.carrier .city{
+    font-size: 12px;
+    color: #888888;
+    opacity: 0.5;
+}
+
+.carrier p{
+    font-size: 14px;
+    color: #888888;
+}
+
+/* Carrier:School,Experience */
+
+
+/* Responsivity */
+@media screen and (max-width:1350px){
+    .contentPage{
+        max-width: 100%;
+    }
+    .contentPage .thirdsection{
+        left: 8%;
+    }
+}
+@media screen and (max-width:1200px){
+    .contentPage .thirdsection{
+        left: 18%;
+    }
+}
+@media screen and (max-width:992px){
+    .contentPage{
+        width: 60%;
+        margin: auto;
+        left: -100px;
+        margin-top: 150px;
+    }
+    .contentPage .thirdsection{
+        left: 154px;
+        top: 0%;
+        width: 150%;
+        height: 300px;
+    }
+    .contentPage .developer{
+        left: 32%;
+        width: 300px;
+        height: 400px;
+    }
+    .developer .name{
+        font-size: 40px;
+        text-align: center;
+    }
+    .contentPage .Navbar{
+        left: 80%;
+        width:80px;
+    }
+    .burger .line{
+        width: 80%;
+        margin-top: 10px;
+    }
+    .burger{
+        height: 60px;
+        padding:5px 15px;
+    }
+    .userdetails>div{
+        height: 45px;
+        width: 45px;
+        margin-left: 20px;
+        padding: 12px;
+    }
+    .userdetails div i {
+        font-size: 15px;
+    }
+    .Navbar{
+        height: 300px;
+    }
+    .navbarMenu{
+        height: 91vh;
+    }
+    .navbarMenu h3{
+        font-size: 22px;
+    }
+}
+
+@media screen and (max-width:768px){
+    .contentPage{
+        left: 10%;
+    }
+    .navbarMenu{
+        height: 110vh;
+        top: 50px;
+        width: 45%;
+    }
+    .contentPage .developer{
+        display: none;
+    }
+    .contentPage .thirdsection{
+        top: 0%;
+        left: 0%;
+        width: 100%;
+    }
+    .info .about h1{
+        display: none;
+    }
+    .contentPage .Navbar{
+        left: -70px;
+    }
+    .thirdsection h2,.thirdsection h1{
+        font-size: 25px;
+        margin-left: 10px;
+    }
+    .thirdsection h3{
+        font-size: 18px;
+        vertical-align: text-top;
+    }
+
+    .adress p span{
+        color: #888888 !important;
+    }
+    .adress p{
+        margin-top: 0px;
+    }
+    .adress h3{
+        margin-left: 10px;
+    }
+
+    .guide .row>[class="col-md-6"]:nth-child(1){
+        order:1;
+    }
+    .guide .row>[class="col-md-6"]:nth-child(2){
+        order:2;
+    }
+    .guide .row>[class="col-md-6"]:nth-child(3){
+        order:4;
+    }
+    .guide .row>[class="col-md-6"]:nth-child(4){
+        order:3;
+    }
+    .guide .row>[class="col-md-6"]:nth-child(5){
+        order:5;
+    }
+    .guide .row>[class="col-md-6"]:nth-child(6){
+        order:6;
+    }
+    .guide .row>[class="col-md-6"]:nth-child(7){
+        order:8;
+    }
+    .guide .row>[class="col-md-6"]:nth-child(8){
+        order:7;
+    }
+    .guide .row>[class="col-md-6"]:nth-child(9){
+        order:9;
+    }
+    .guide .row>[class="col-md-6"]:nth-child(10){
+        order:10;
+    }
+    .guide .party{
+        margin-left: 0;
+    }
+    .guide {
+        margin-bottom: 0px;
+    }
+    .guide .design,.guide .Media,.guide .help,.guide .anything,.guide .wordpress,.guide .party{
+        margin-bottom: 0px;
+    }
+    .guide .blackman,.guide .bitmap,.guide .flower,.guide .person{
+        margin-bottom: 30px;
+    }
+    .Works,.col-md-6>div{
+        top: 0;
+    }
+    .emerald{
+        left: 0;
+    }
+    .Works .choices{
+        display: block !important;
+    }
+    .choices ul li:first-child{
+        color: #00c483;
+    }
+    .choices ul li:hover{
+        color: #00c483;
+    }
+    .Education .carrier .experience{
+        margin-top: 50px;
+    }
+    .Education .about{
+        display: block !important;
+    }
+    .Education .about p{
+        color: #00c483;
+        font-size: 18px;
+        font-weight: bold;
+        width: 33%;
+        float: left;
+    }
+    .thirdsection h2,.thirdsection h1, .thirdsection h3{
+        text-align: center;
+    }
+    .Education .about p:nth-child(2)::before,.Education .about p:nth-child(3)::before{
+        content: ' / ';
+        color: #888888;
+        font-size: 15px;
+        vertical-align: text-bottom;
+    }
+    .Navbar,.thirdsection{
+        height: 90vh !important;
+    }
+}
+/* Responsivity */
+
+.June,.April,.March,.February,.January{
+    height: 100%;
+    overflow-y: scroll;
+    padding: 20px;
+}
+.June .text,.April .text,.March .text,.February .text,.January .text{
+    width: 55%;
+    margin-top: 50px;
+}
+.June h1,.April h1,.March h1,.February h1,.January h1{
+    color:white;
+    font-family: roboto,sans-serif;
+    font-weight: bold;
+    font-size: 60px;
+}
+
+.April .blackman,.March .bitmap,.March .flower,.February .person,.January .bitmap{
+    width: 50%;
+    height: 150px;
+    margin-top: 50px;
+}
+.March .bitmap,.March .flower,.March .text{
+    width: 100%;
+    height: 150px;
+}
+.February .person{
+    width: 100%;
+}
+
+
+.sample {
+    width: 100%;
+}
+
+.sample h1{
+    margin: 30px 0;
+    font-family: roboto,sans-serif;
+}
+
+.sample p{
+    color: #888888;
+    font-size: 16px;
+    margin-top: 10px;
+}
+.sample a{
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.Content p,.Content ul li,label{
+    font-size: 15px;
+    color: #888888;
+    margin-bottom: 15px;
+}
+.Content ul {
+    padding: 0 40px;
+}
+
+label{
+    width: 95%;
+    font-size: 14px;
+}
+.Content{
+    padding: 20px;
+}
+.Content .datetime{
+    margin-left: 20px;
+}
+blockquote{
+    position: relative;
+}
+blockquote p{
+    font-size: 20px;
+    padding: 0 10px;
+}
+
+
+.Content .wordpress{
+    margin-bottom: 15px;
+}
+blockquote::before {
+    content:"";
+    width: 4px;
+    height: 100%;
+    background-color: #00c483;
+    position: absolute;
+    top: 0;
+    left: 10px;
+}
+
+
+cite{
+    color: white;
+}
+
+cite::before{
+    content: "-";
+}
+
+.Content textarea{
+    background-color: #212529;
+    color: #888888;
+    outline: none;
+    border: none;
+    resize: none;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: roboto,sans-serif;
+    border-bottom: 1px solid #333333;
+}
+
+.Content input:nth-child(4){
+    width: 15px;
+}
+.Content h3{
+    font-family: roboto,sans-serif;
+    margin-bottom: 20px;
+}
+
+.Content a{
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    margin-left: 50%;
+    font-weight: 500;
+    transition: color 0.5s;
+    margin-top: 20px;
+}
+
+a:hover{
+    color: #00c483;
+}
+
+.Content .person,.Content .flower{
+    width: 80%;
+    height: 250px;
+    margin-bottom: 20px;
+}
+
+.Content .bitmap{
+    width: 55%;
+}
+
+
+.tags span{
+    margin-top: 10px;
+    margin-right: 20px;
+}
+.tag{
+    border: 1px solid #00c483;
+    height: 30px;
+    padding: 3px;
+    margin-top: 10px;
+}
+.tag a{
+    display: inline-block;
+    padding: 0;
+    width: 100%;
+    color: #888888;
+    margin-left: 0;
+    margin-top: 0;
+    font-weight: 900;
+    color: white;
+    font-family: roboto,sans-serif;
+}
+
+.Content h4{
+    color: white; 
+    font-size: 25px; 
+    font-weight: 900;
+    margin: 20px -15px;
+}
+
+.comment{
+    width: 100%;
+    display: flex;
+    margin-bottom: 20px;
+}
+.comment>div{
+    margin-right: 10px;
+}
+.comment .cmnt-pic{
+    width: 10%;
+    height: 60px;
+}
+.comment .cmnt-pic img{
+    width: 100%;
+    height: 100%;
+}
+
+.cmnt-text{
+    width: 81.66%;
+
+}
+.cmnt-text p{
+    font-size: 14px;
+    color: #888888;
+    margin-bottom: 5px;
+}
+.reply{
+    width: 8.33%;
+    color: white;
+    font-size:12px;
+}
+
+.reply span{
+    cursor: default;
+}
+
+
+
+.thirdsection>div::before{
+    content: "";
+    position: absolute;
+    background-color: #212529;
+    width: 100%;
+    height: 20px;
+    top: 0;
+    left: 0;
+    z-index: 20;
+}
+
+.message-reply{
+    display:none;
+}
+.message-reply p{
+    font-size: 12px;
+    color: white;
+    margin-top: -8%;
+    margin-left: 55%;
+    cursor: default;
+}
+.message-reply{
+    margin:35px 0 20px 20px;
+}

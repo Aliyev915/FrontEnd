@@ -1,0 +1,695 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+body{
+    overflow-x: hidden;
+    font-family: BasicFont;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+h1,h2,h3,h4,h5,h6{
+    color: #4d4d4d;
+    font-weight: bold;
+}
+p{
+    color: #535353;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: none;
+}
+li{
+    list-style-type: none;
+}
+.image,.image img{
+    width: 100%;
+    overflow: hidden;
+    border-radius: 5px;
+}
+
+@font-face{
+    font-family: BasicFont;
+    src:url(../../fonts/Raleway-VariableFont_wght.ttf);
+}
+
+/* back to top */
+.back-to-top{
+    position: fixed;
+    width: 40px;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    border-radius: 10px;
+    background-color: #007bff;
+    color: #fff;
+    bottom: 50px;
+    right: 20px;
+}
+/* back to top */
+
+/* Responsive Start */
+@media screen and (max-width:992px){
+    .navbar{
+        display: none;
+    }
+    .navbar-responsive{
+        display: block !important;
+        position: fixed;
+        width: 100%;
+        z-index: 99;
+        background-color: #fff;
+    }
+    .main{
+        position: relative;
+        top: 100px;
+    }
+    .navbar-responsive .burger-button{
+        margin-top: 8px;
+    }
+    .navbar-responsive .burger-button>div{
+        height: 2px;
+        background-color: #4d4d4d;
+        width: 25px;
+        margin-top: 5px;
+    }
+    .dropdown-responsive{
+        display: none;
+        background-color: #f9f9f9;
+        padding: 10px 20px ;
+    }
+    .dropdown-responsive ul li{
+        font-size: 18px;
+        line-height: 2;
+    }
+    .dropdown-responsive ul li a {
+        text-decoration: none;
+        color: #535353;
+        transition: color 0.6s;
+    }
+    .dropdown-responsive ul li a:hover{
+        color: #007bff;
+    }
+    .left-side{
+        display: none;
+    }
+}
+
+@media screen and (max-width:768px){
+    .candidate .image{
+        display: none;
+    }
+    .table td,.table tr{
+        font-size: 12px;
+        text-align: center;
+    }
+    .manage h4{
+        font-size: 14px;
+    }
+    .table th:nth-child(2),td:nth-child(2){
+        display: none;
+    }
+}
+@media screen and (max-width:576px){
+    .basic-info .image,.basic-info .image img{
+        width: 150px !important;
+    }
+}
+
+@media screen and (max-width:1200px){
+    .userList .image,.userList .image img,.userList .user-info,.userList .follow{
+        width: 100%;
+    }
+    .statistic .icon i{
+        font-size: 50px;
+    }
+    .listing,.view,.review,.bookmark{
+        height: 140px;
+    }
+}
+
+/* Responsive end */
+
+/* navbar start*/
+.navbar-responsive{
+    display: none;
+}
+.navbar,.navbar-responsive{
+    box-shadow: 0 0 35px rgba(0, 0, 0, 0.14);
+    padding: 20px 30px;
+}
+.navbar{
+    position: fixed;
+    top: 0;
+    background-color: #fff;
+    z-index: 99;
+    width: 100%;
+}
+
+.logo,.logo img{
+    height: 40px;
+}
+
+
+.navbar .user{
+    height: 45px;
+    position: relative;
+}
+.navbar .user img{
+    height: 45px;
+    border-radius: 50px;
+    margin: 0 10px;
+}
+
+.user a{
+    color: #535353;
+}
+
+.user .dropdown{
+    position: absolute;
+    display: none;
+    top: 100%;
+    left: 25%;
+    background-color: #fff;
+    z-index: 100;
+}
+.dropdown ul{
+    display: block;
+    width: 180px;
+    padding: 0 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.14);
+    margin-top: 20px;
+}
+.dropdown ul li{
+    line-height: 2;
+}
+.dropdown ul li a{
+    color: #6c757d !important;
+    font-size: 13px;
+    font-weight: normal;
+    transition: all 1.2s;
+}
+
+.dropdown ul li a:hover{
+    color: #007bff !important;
+    margin-left: 3px;
+}
+
+/* navbar end*/
+
+
+/* left-sidebar start */
+.main{
+    display: flex;
+    height: 100%;
+}
+.left-side{
+    background-color: #2a2a2a;
+    width: 400px;
+    min-height: 100%;
+    position: relative;
+    top: 85px;
+}
+
+.left-side .title h4{
+    margin-bottom: 0;
+    font-size: 15px;
+    letter-spacing: 1px;
+    color: #c5c5c5!important;
+    padding: 15px 30px 15px;
+}
+
+.left-side .mainList{
+    border-bottom: 1px solid #343a40;
+    border-top: 1px solid #343a40;   
+}
+.mainList{
+    padding: 10px 0 !important;
+}
+.mainList ul li{
+    border-left: 3px solid transparent;
+    line-height: 25px;
+    font-weight: 300;
+    font-size: 15px;
+}
+.mainList ul li a{
+    color: #c5c5c5;
+    display: block;
+    padding: 11px 27px;
+    transition: .3s;
+}
+.mainList ul li a:hover{
+    color: #007bff;
+}
+.active-link{
+    border-left: 3px solid #007bff !important;
+}
+.mainList ul li:hover{
+    border-left: 3px solid #007bff;
+}
+/* left-sidebar end */
+
+
+/* right-side */
+.right-side{
+    padding: 20px 50px;
+    width: 100%;
+    position: relative;
+    top: 100px;
+}
+/* right-side */
+
+/* Dashboard Page End */
+/* statistic section start */
+.count h4{
+    font-size: 30px;
+}
+.count p{
+    margin-right: 5px;
+    font-weight: 600;
+}
+.count h4,.count p{
+    color: #fff;
+}
+.listing,.view,.review,.bookmark{
+    position: relative;
+    width: 100%;
+    display: inline-block;
+    padding: 30px;
+    border-radius: 5px;
+    margin-bottom: 50px;
+}
+.statistic i{
+    font-size: 70px;
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    color: rgba(255,255,255,0.41);
+}
+
+.statistic{
+    margin-top: 50px;
+}
+/* statistic section end */
+
+/* user and  account stats */
+.user-nav,.account-nav{
+    border-bottom: 1px solid #e6e6e6;
+    padding: 10px 40px 0 40px;
+}
+.users,.accounts{
+    box-shadow: 0 0 35px rgba(0, 0, 0, 0.14);
+}
+
+.time span{
+    display: inline-block;
+    margin: 10px 10px 0 10px;
+    cursor: pointer;
+}
+.accountList,.userList{
+    padding: 10px 20px;
+    margin: 20px 0;
+}
+.accountList .image img,.userList .image img{
+    border-radius: 10px;
+}
+.follow{
+    margin-top: 10px;
+}
+.btn-follow{
+    background-color: #e6e6e6;
+    font-size: 12px;
+    border: none;
+    outline: none !important;
+    border-radius: 50px;
+    padding: 10px 15px;
+    text-align: center;
+    color: #535353;
+    font-weight: 600;
+}
+.btn-follow:hover{
+    background-color: #376bff;
+    color: #fff;
+}
+[class*="List"] span{
+    color: #535353;
+}
+.actived{
+    border-bottom: 2px solid #376bff;
+    color: #007bff;
+}
+
+.accountList .icon{
+    border-radius: 3px;
+    height: 50px;
+    width: 50px;
+    left: 0;
+    text-align: center;
+    line-height: 50px;
+    position: absolute;
+    top: 0;
+    background: #f5f0f0;
+}
+
+.btn-delete{
+    text-decoration: none;
+    background-color: transparent;
+    margin-top: 8px;
+    display: inline-block;
+    color: #4d4d4d;
+}
+.btn-delete:hover{
+    color: #525252;
+}
+/* user and  account stats */
+
+/* latest project area start */
+.latest-project{
+    margin: 50px 0;
+    box-shadow: 0 0 35px rgba(0, 0, 0, 0.14);
+}
+.latest-project .title{
+    color: #4d4d4d;
+    padding: 20px;
+}
+.table{
+    color: #535353 !important;
+}
+.table tr{
+    border: 1px solid #e6e6e6;
+}
+.table td{
+    padding: 20px !important;
+}
+.latest-project .table span{
+    color: #fff;
+    font-size: 11px;
+    padding: 2px;
+    border-radius: 5px;
+    font-weight: 600;
+}
+.release{
+    background-color: #dc3545;
+}
+.pend{
+    background-color: #ff8acc;
+}
+.work-in-progress{
+    background-color: #5b69bc;
+}
+.soon{
+    background-color: #007bff;
+}
+
+.copyright p{
+    margin: 0 15px 30px;
+    font-size: 15px;
+    text-align: center;
+    line-height: 30px;
+}
+/* latest project area start */
+
+/* Dashboard Page End */
+
+/* Post Page Start */
+/* post a job */
+.post{
+    box-shadow: 0 0 35px rgba(0, 0, 0, 0.14);
+}
+.post .title,.password .title,.basic-info .title{
+    background: #f9f9f8;
+    padding: 10px 20px;
+    margin: 20px 0;
+    border-bottom: 1px solid #e6e6e6;
+}
+
+.title h4{
+    font-size: 16px;
+}
+.form{
+    margin: 15px 0;
+    padding: 25px 20px;
+}
+.input-text{
+    width: 100%;
+    color: #535353;
+    outline: none;
+    padding: 10px 20px;
+    border: 1px solid #e6e6e6;
+    border-radius: 5px;
+    position: relative;
+    margin: 15px 0;
+}
+label{
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.down{
+    position: absolute;
+    top: 60%;
+    left: 92%;
+    color: #535353;
+}
+.selectList{
+    padding: 0 30px 0 0;
+    margin: 0;
+    position: absolute;
+    width: 100%;
+    z-index: 20;
+    display: none;
+    background-color: #fff;
+}
+.selectList ul{
+    width: 100%;
+    border: 1px solid #e6e6e6;
+}
+.selectList ul li{
+    width: 100%;
+    padding: 5px 10px;
+}
+.selectList ul li:hover{
+    background-image: linear-gradient(to left, #2c5ce4,#007bff);
+}
+
+.post textarea{
+    width: 100%;
+    padding: 10px 17px;
+    font-size: 14px;
+    border: 1px solid #e8e7e7;
+    outline: none;
+    color: #6c6c6c;
+    border-radius: 2px;
+}
+
+.btn-upload{
+    cursor: pointer;
+    padding: 12px 29px 10px 29px;
+    letter-spacing: 1.5px;
+    font-size: 14px;
+    font-weight: 500;
+    text-transform: uppercase;
+    border-radius: 3px;
+    float: left;
+    margin-right: 5px;
+    margin-top: 10px;
+    background: transparent!important;
+    border: solid 1px #376bff;
+    color: #007bff;
+}
+
+.btn-upload:hover{
+    background: #376bff!important;
+    color: #fff;
+}
+
+.btn-post{
+    padding: 13px 30px 11px 30px;
+    letter-spacing: 1.5px;
+    font-size: 14px;
+    font-weight: 500;
+    text-transform: uppercase;
+    border-radius: 3px;
+    color: #fff !important;
+    box-shadow: none !important;
+    outline: none;
+    border: none;
+    background: #2c5ce4;
+    margin: 10px 0;
+}
+/* Post Job Page End */
+
+
+/* Manage Candidate Page Start*/
+.manage{
+    margin: 50px 0;
+    box-shadow: 0 0 35px rgba(0, 0, 0, 0.14);
+}
+.table {
+    width: 100%;
+}
+.table td,.table th{
+    padding: 20px;
+}
+.manage .candidate,.manage .job{
+    display: flex;
+    padding: 10px 0;
+}
+.image, .image img{
+    width: 80px;
+    overflow: hidden;
+    border-radius: 5px;
+}
+.candidate-info,.job-info{
+    margin-left: 15px;
+}
+.candidate .name,.job .name{
+    color: #4d4d4d;
+}
+.candidate span,.job span{
+    color: #535353;
+    font-weight: 400;
+    font-size: 14px;
+    display: inline-block;
+    margin-top: 10px;
+    margin-right: 8px;
+}
+.manage td{
+    vertical-align: middle;
+}
+.manage td a{
+    color: #535353;
+}
+.manage i{
+    display:inline-block;
+    margin-right: 5px;
+}
+/* Manage Candidate Page End*/
+
+/* Message Page Start */
+.message-list{
+    margin: 50px 0;
+    box-shadow: 0 0 35px rgba(0, 0, 0, 0.14);
+    position: relative;
+}
+.message-list .title{
+    border-bottom: 1px solid #e6e6e6;
+    padding: 20px;
+    color: #4d4d4d;
+}
+.message{
+    padding: 20px;
+    margin: 20px 0;
+    position: relative;
+    border-bottom: 1px solid #e6e6e6;
+}
+.message .image,.message .image img{
+    width: 100%;
+    overflow: hidden;
+    border-radius: 5px;
+}
+.message .username{
+    color: #4d4d4d;
+}
+.message .message-date{
+    color: #535353;
+    font-size: 12px;
+    margin: 8px 0;
+}
+.message .message-text{
+    color: #535353;
+    font-size: 16px;
+    margin: 8px 0;
+}
+
+.message .reply,.message .mark-as-read{
+    position: absolute;
+    top: 0px;
+    color: #535353 !important;
+}
+.message .reply{
+    right: 50px;
+}
+.message .mark-as-read{
+    right: 80px;
+    cursor: pointer;
+}
+.message .reply a{
+    color:#535353;
+}
+
+.kebab-menu {
+    position: absolute;
+    top: 20px;
+    right: 5%;
+    cursor: pointer;
+}
+.kebab-menu div{
+    width: 5px;
+    height: 5px;
+    background-color: #535353;
+    border-radius: 50%;
+    margin: 5px 0;
+}
+.menu-item{
+    display: none;
+    position: absolute;
+    top: 68px;
+    right: 5%;
+    border: 1px solid #e6e6e6;
+    color: #535353;
+    background-color: #f9f8ff;
+    padding: 5px 20px;
+    text-align: center;
+    border-radius: 5px;
+    cursor: pointer;
+}
+/* Message Page End */
+
+/* Change Password Start */
+.password{
+    box-shadow:  0 0 35px rgba(0, 0, 0, 0.14);
+    margin: 50px 0;
+}
+.change-password{
+    padding: 10px 20px;
+}
+/*Change Password End */
+
+
+/* Edit Profile Start */
+.basic-info{
+    box-shadow:  0 0 35px rgba(0, 0, 0, 0.14);
+    margin: 50px 0;   
+}
+.basic-info .edit{
+    padding: 30px 20px;
+}
+.basic-info .image,.basic-info .image img{
+    width: 100%;
+    overflow: hidden;
+}
+.basic-info .image{
+    border-radius: 10px;
+    position: relative;
+    border: 2px solid #007bff;
+}
+.upload{
+    color: #fff;
+    padding: 10px 15px;
+    text-align: center;
+    background-color: #2c5ce4;
+    border-radius: 50%;
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    z-index: 10;
+}
+/* Edit Profile End */

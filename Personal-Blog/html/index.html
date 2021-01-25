@@ -1,0 +1,753 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- <div class="cursor"></div> -->
+    <div class="container-fluid">
+        <div class="navbarMenu">
+            <div class="SearchMenu">
+                <div class="Search">
+                    <input type="search" placeholder="Search...">
+                    <i class="fas fa-search"></i>
+                </div>
+            </div>
+            <div class="Archive">
+                <h3>archive</h3>
+                <ul>
+                    <li>
+                        <a href="26June.html">June 2019(1)</a>
+                    </li>
+                    <li>
+                        <a href="Aprel.html">April 2019(1)</a>
+                    </li>
+                    <li>
+                        <a href="March.html">March 2019(2)</a>
+                    </li>
+                    <li>
+                        <a href="February.html">February 2019(1)</a>
+                    </li>
+                    <li>
+                        <a href="January.html">January 2019</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="dropDown">
+                <h3>archive dropdown</h3>
+                <select name="Archive" id="archive">
+                    <option value="Select" onchange="location=this.value;">Select Month</option>
+                    <option value="C:/Users/Code/Desktop/Front-end/Niko/html/26June.html">June 2019</option>
+                    <option value="C:/Users/Code/Desktop/Front-end/Niko/html/Aprel.html">April 2019</option>
+                    <option value="C:/Users/Code/Desktop/Front-end/Niko/html/March.html">March 2019</option>
+                    <option value="C:/Users/Code/Desktop/Front-end/Niko/html/February.html">February 2019</option>
+                    <option value="C:/Users/Code/Desktop/Front-end/Niko/html/January.html">January 2019</option>
+                </select>
+            </div>
+            <div class="categories">
+                <h3>categories</h3>
+                <ul>
+                    <li>
+                        <a href="26June.html">Design(1)</a>
+                    </li>
+                    <li>
+                        <a href="">Guide(5)</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="pages">
+                <h3>pages</h3>
+                <ul>
+                    <li>
+                        <a href="">About Me</a>
+                    </li>
+                    <li>
+                        <a href="">Contact Me</a>
+                    </li>
+                    <li>
+                        <a href="">My Blog</a>
+                    </li>
+                    <li>
+                        <a href="">My Works</a>
+                    </li>
+                    <li>
+                        <a href="">Resume</a>
+                    </li>
+                    <li>
+                        <a href="sample.html">Sample Page</a>
+                    </li>
+                    <li>
+                        <a href="sample.html">Sample Page</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="contentPage">
+            <div class="row">
+                <div class="col-md-1">
+                    <div class="Navbar">
+                        <div class="burger">
+                            <div class="line"></div>
+                            <div class="line"></div>
+                            <div class="line"></div>
+                        </div>
+                        <div class="userdetails">
+                            <div class="personal" data-id="1" style="color:#00c483">
+                                <i class="far fa-user"></i>
+                            </div>
+                            <div class="phone" data-id="2">
+                                <i class="fas fa-phone-alt"></i>
+                            </div>
+                            <div class="note" data-id="3">
+                                <i class="far fa-edit"></i>
+                            </div>
+                            <div class="works" data-id="4">
+                                <i class="fas fa-briefcase"></i>
+                            </div>
+                            <div class="education" data-id="5">
+                                <i class="fas fa-glasses"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="developer">
+                        <div class="name">Jose Niko</div>
+                        <div class="profession">Developer</div>
+                        <div class="social">
+                            <ul>
+                                <li>
+                                    <a href="#">
+                                        <div>
+                                            <i class="fab fa-facebook-f"></i>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <div>
+                                            <i class="fab fa-dribbble"></i>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <div>
+                                            <i class="fab fa-linkedin-in"></i>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <div>
+                                            <i class="fab fa-behance"></i>
+                                        </div>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-md-7">
+                    <div class="thirdsection">
+                        <div class="info" data-id="1">
+                            <div class="about">
+                                <h1>about me</h1>
+                                <div>28 years</div>
+                                <div>Lviv</div>
+                                <div>Freelance</div>
+                            </div>
+                            <div class="infoMe">
+                                <p>Prolific, full stack web developer with a passion for metrics and beating former
+                                    "best-yets." Prototyped 25 new product features per year for Flexor, Inc. Decreased
+                                    rework by 22% and costs by 15%. Consistently receive high user experience scores for
+                                    all
+                                    web development projects, including a 55% increase for Flexor, Inc. Passionate about
+                                    building world class web applications. One of my sites received a 2015 Webby for
+                                    Best
+                                    Navigation and Structure.</p>
+                            </div>
+                            <div class="service">
+                                <h1>my services</h1>
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <i class="fas fa-tv"></i>
+                                        <h5>development</h5>
+                                        <p>Building a custom tailored solution based on your technical specification.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <i class="fas fa-rocket"></i>
+                                        <h5>SEO optimization</h5>
+                                        <p>Audit your website, perform technical improvements and write meta tags</p>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <i class="fas fa-server"></i>
+                                        <h5>database</h5>
+                                        <p>SSL certificate installation and configuration, redirection configuration on
+                                            your
+                                            website</p>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <i class="fas fa-shield-alt"></i>
+                                        <h5>data security</h5>
+                                        <p>Strategy with leading data protection technology to safeguard your critical
+                                            data.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="pricing">
+                                <h2>my pricing</h2>
+                                <div class="row">
+                                    <div class="col-md-4">
+                                        <h4>basic</h4>
+                                        <div class="price">
+                                            <h3>$</h3>
+                                            <h1>29</h1>
+                                            <p>/hour</p>
+                                        </div>
+                                        <ul>
+                                            <li>consulting</li>
+                                            <li>development</li>
+                                            <li>optimisation</li>
+                                            <li>24/7 support</li>
+                                        </ul>
+                                        <button>CHOOSE PLAN</button>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <h4>advanced</h4>
+                                        <div class="price">
+                                            <h3>$</h3>
+                                            <h1>99</h1>
+                                            <p>/hour</p>
+                                        </div>
+                                        <ul>
+                                            <li>consulting</li>
+                                            <li>development</li>
+                                            <li>optimisation</li>
+                                            <li>24/7 support</li>
+                                        </ul>
+                                        <button>CHOOSE PLAN</button>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <h4>premium</h4>
+                                        <div class="price">
+                                            <h3>$</h3>
+                                            <h1>99</h1>
+                                            <p>/hour</p>
+                                        </div>
+                                        <ul>
+                                            <li>consulting</li>
+                                            <li>development</li>
+                                            <li>optimisation</li>
+                                            <li>24/7 support</li>
+                                        </ul>
+                                        <button>CHOOSE PLAN</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="facts">
+                                <h2>principial facts</h2>
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <div class="count">0</div>
+                                        <p>successul projects</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <div class="count">0</div>
+                                        <p>happy clients</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <div class="count">0</div>
+                                        <p>awards won</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <div class="count">0</div>
+                                        <p>keyboard broken</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="clients">
+                                <h2>my clients</h2>
+                                <div class="row">
+                                    <div class="col-lg-3 col-md-4 col-sm-6">
+                                        <a href=""><img src="../img/rapha.png" alt=""></a>
+                                    </div>
+                                    <div class="col-lg-3 col-md-4 col-sm-6">
+                                        <a href=""><img src="../img/teakwood.png" alt=""></a>
+                                    </div>
+                                    <div class="col-lg-3 col-md-4 col-sm-6">
+                                        <a href=""><img src="../img/carhatt.png" alt=""></a>
+                                    </div>
+                                    <div class="col-lg-3 col-md-4 col-sm-6">
+                                        <a href=""><img src="../img/ampere.png" alt=""></a>
+                                    </div>
+                                    <div class="col-lg-3 col-md-4 col-sm-6">
+                                        <a href=""><img src="../img/kiehls.png" alt=""></a>
+                                    </div>
+                                    <div class="col-lg-3 col-md-4 col-sm-6">
+                                        <a href=""><img src="../img/rogue.png" alt=""></a>
+                                    </div>
+                                    <div class="col-lg-3 col-md-4 col-sm-6">
+                                        <a href=""><img src="../img/weport.png" alt=""></a>
+                                    </div>
+                                    <div class="col-lg-3 col-md-4 col-sm-6">
+                                        <a href=""><img src="../img/frobes.png" alt=""></a>
+                                    </div>
+                                    <div class="col-lg-3 col-md-4 col-sm-6">
+                                        <a href=""><img src="../img/reverland.png" alt=""></a>
+                                    </div>
+                                    <div class="col-lg-3 col-md-4 col-sm-6">
+                                        <a href=""><img src="../img/knotee.png" alt=""></a>
+                                    </div>
+                                    <div class="col-lg-3 col-md-4 col-sm-6">
+                                        <a href=""><img src="../img/books.png" alt=""></a>
+                                    </div>
+                                    <div class="col-lg-3 col-md-4 col-sm-6">
+                                        <a href=""><img src="../img/copixel.png" alt=""></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="adress" data-id="2">
+                            <p>
+                                <span style="color:#212529;">If you have any questions regarding this privacy statement,
+                                    the
+                                    practices of this site or </span>
+                                your dealings with me, please do not hesitate to contact at the above-mentioned address,
+                                e-mail
+                                address or phone number.
+                            </p>
+                            <div class="mapping">
+                                <iframe
+                                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5146.182836720332!2d24.03004876166248!3d49.8407397745253!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473add6e38e2cf77%3A0x60be5d85dad5d20c!2sCopernicus%20Movie%20Theater!5e0!3m2!1sen!2s!4v1584709756262!5m2!1sen!2s"
+                                    width="600" height="300" frameborder="0" style="border:0;" allowfullscreen=""
+                                    aria-hidden="false" tabindex="0"></iframe>
+                                <div
+                                    style="background-color: white; font-weight: 500; font-family: Roboto, sans-serif; padding: 15px 25px; box-sizing: border-box; top: 5px; border: 1px solid rgba(0, 0, 0, 0.12); border-radius: 5px; left: 50%; max-width: 375px; position: absolute; transform: translateX(-50%); width: calc(100% - 10px); z-index: 1;">
+                                    <div><img alt=""
+                                            src="https://maps.gstatic.com/mapfiles/api-3/images/google_gray.svg"
+                                            draggable="false"
+                                            style="padding: 0px; margin: 0px; border: 0px; height: 17px; vertical-align: middle; width: 52px; user-select: none;">
+                                    </div>
+                                    <div style="line-height: 20px; margin: 15px 0px;"><span
+                                            style="color: rgba(0, 0, 0, 0.87); font-size: 14px;">This page can't load
+                                            Google
+                                            Maps correctly.</span></div>
+                                    <table style="width: 100%;">
+                                        <tr>
+                                            <td style="line-height: 16px; vertical-align: middle;"><a
+                                                    href="https://developers.google.com/maps/documentation/javascript/error-messages?utm_source=maps_js&amp;utm_medium=degraded&amp;utm_campaign=billing#api-key-and-billing-errors"
+                                                    target="_blank" rel="noopener"
+                                                    style="color: rgba(0, 0, 0, 0.54); font-size: 12px;">Do you own this
+                                                    website?</a></td>
+                                            <td style="text-align: right;"><button class="dimdissButton">OK</button>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </div>
+                            </div>
+                            <div class="contactList">
+                                <ul>
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <li>
+                                                <i class="fas fa-map-marker-alt"></i>
+                                                <span>90 Alysha Branch Suite 515</span>
+                                            </li>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <li>
+                                                <i class="far fa-envelope"></i>
+                                                <a href="">jose@ni.ko</a>
+                                            </li>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <li>
+                                                <i class="fas fa-phone-alt"></i>
+                                                <a href="">256-776-1614</a>
+                                            </li>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <li>
+                                                <i class="far fa-envelope"></i>
+                                                <a href="">jose@ni.ko</a>
+                                            </li>
+                                        </div>
+                                    </div>
+                                </ul>
+                            </div>
+                            <div class="message">
+                                <h3>send messages</h3>
+                                <form action="">
+                                    <input type="text" placeholder="first name">
+                                    <input type="text" placeholder="second name">
+                                    <input type="text" placeholder="email">
+                                    <input type="text" placeholder="message">
+                                    <button>Send Message</button>
+                                </form>
+                            </div>
+                        </div>
+                        <div class="guide" data-id="3">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="design">
+                                        <p> <a href="design.html">Intuitive Design Vs. Shareable Design</a></p>
+                                        <div class="datetime">JUNE 26 2019</div>
+                                        <P>Snapchat’s interface baffles a lot of people. Not to pick on older folks, but
+                                            people over a certain age tend to have a hard time figuring out how</P>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="blackman">
+                                        <img src="../img/black-men.jpg" alt="">
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="bitmap">
+                                        <img src="../img/Bitmap.jpg" alt="">
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="Media">
+                                        <p> <a href="media.html">Some Media Information About Me</a></p>
+                                        <div class="datetime">APRIL 2, 2019</div>
+                                        <P>SToday, we live and breathe media, minute-by-minute, hour-by-hour. News,
+                                            television, social media</P>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="help">
+                                        <p> <a href="help.html">Help Finding Information Online</a></p>
+                                        <div class="datetime">MARCH 26, 2019</div>
+                                        <P>Most information is found on the Internet by utilizing search engines. A
+                                            search
+                                            engine is a web service</P>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="flower">
+                                        <img src="../img/flower.jpg" alt="">
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="person">
+                                        <img src="../img/person.jpg" alt="">
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="anything">
+                                        <p> <a href="anything.html">Anything Now A Days</a></p>
+                                        <div class="datetime">MARCH 26, 2019</div>
+                                        <p>They say give your best work away for free. This is the best work I’ve ever
+                                            created in my whole entire</p>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="wordpress">
+                                        <p> <a href="install.html">A Guide How To Install WordPress</a></p>
+                                        <div class="datetime">FEBRUARY 26, 2019</div>
+                                        <p>WordPress is well-known for its ease of installation. Under most
+                                            circumstances,
+                                            installing</p>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="bitmap">
+                                        <img src="../img/Bitmap-2.jpg" alt="">
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="party">
+                                        <p> <a href="wordpress.html">Party Jokes Startling But Unnecessary</a></p>
+                                        <div class="datetime">JANUARY 26, 2019</div>
+                                        <p>Fighting against form spam is always a necessary job for any website owners
+                                            as it
+                                            is so annoying</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="Works" data-id="4">
+                            <div class="choices d-none">
+                                <ul>
+                                    <li>all</li>
+                                    <li>development</li>
+                                    <li>web</li>
+                                    <li>mobile app</li>
+                                </ul>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="wall">
+                                        <img src="../img/Bitmap-2.jpg" alt="">
+                                        <div class="overLay">
+                                            <a href="">Green Wall</a>
+                                            <p>development</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="orchidey">
+                                        <img src="../img/flower.jpg" alt="">
+                                        <div class="overLay">
+                                            <a href="">Orchidey</a>
+                                            <p>web</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="end">
+                                        <img src="../img/Green_End.jpg" alt="">
+                                        <div class="overLay">
+                                            <a href="">Green End</a>
+                                            <p>mobile app</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="broken">
+                                        <img src="../img/Broken_Head.jpg" alt="">
+                                        <div class="overLay">
+                                            <a href="">Broken Head</a>
+                                            <p>development</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="oxyde">
+                                        <img src="../img/Oxyde.jpg" alt="">
+                                        <div class="overLay">
+                                            <a href="">Oxyde</a>
+                                            <p>mobile app</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="yupi">
+                                        <img src="../img/Green_Yupi.jpg" alt="">
+                                        <div class="overLay">
+                                            <a href="">Green Yupi</a>
+                                            <p>web</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6" style="height: 0;">
+                                    <div class="emerald">
+                                        <img src="../img/Emerald.jpg" alt="">
+                                        <div class="overLay">
+                                            <a href="">Emerald</a>
+                                            <p>web</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="Education" data-id="5">
+                            <div class="about d-none">
+                                <p>10 years in design</p>
+                                <p>6 years in coding</p>
+                                <p>master's degree</p>
+                            </div>
+                            <div class="text">Web Developer with 10 years of experience in designing and developing user
+                                interfaces, testing, debugging, and training staff within eCommerce technologies. Proven
+                                ability in optimizing web functionality that improve data retrieval and workflow
+                                efficiencies.
+                            </div>
+                            <div class="skill">
+                                <h3><i class="fas fa-tachometer-alt"></i>skills</h3>
+                                <div class="progressBar">
+                                    <div class="indicator d-flex justify-content-between">
+                                        <h6>web development</h6>
+                                        <div class="perCent">
+                                            <span class="value">0</span>
+                                            <span>%</span>
+                                        </div>
+                                    </div>
+                                    <div class="barWeb">
+                                        <div class="progress"></div>
+                                    </div>
+                                    <div class="indicator d-flex justify-content-between">
+                                        <h6>data base</h6>
+                                        <div class="perCent">
+                                            <span class="value">0</span>
+                                            <span>%</span>
+                                        </div>
+                                    </div>
+                                    <div class="barData">
+                                        <div class="progress"></div>
+                                    </div>
+                                    <div class="indicator d-flex justify-content-between">
+                                        <h6>seo optimization</h6>
+                                        <div class="perCent">
+                                            <span class="value">0</span>
+                                            <span>%</span>
+                                        </div>
+                                    </div>
+                                    <div class="barSeo">
+                                        <div class="progress"></div>
+                                    </div>
+                                    <div class="indicator d-flex justify-content-between">
+                                        <h6>ui/ux design</h6>
+                                        <div class="perCent">
+                                            <span class="value">0</span>
+                                            <span>%</span>
+                                        </div>
+                                    </div>
+                                    <div class="barUI">
+                                        <div class="progress"></div>
+                                    </div>
+                                    <div class="indicator d-flex justify-content-between">
+                                        <h6>graphic design</h6>
+                                        <div class="perCent">
+                                            <span class="value">0</span>
+                                            <span>%</span>
+                                        </div>
+                                    </div>
+                                    <div class="barGraphic">
+                                        <div class="progress"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carrier">
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="edu">
+                                            <h3><i class="fas fa-graduation-cap"></i>education</h3>
+                                            <div class="school">
+                                                <span class="year">2012-2013</span>
+                                                <div class="name">design school</div>
+                                                <div class="city">London</div>
+                                                <p>Master of Science in Information and Communications Technology with a
+                                                    concentration in Web Design and Development</p>
+                                            </div>
+                                            <div class="school">
+                                                <span class="year">2007-2012</span>
+                                                <div class="name">oxford university</div>
+                                                <div class="city">Oxford</div>
+                                                <p>Master of degree, Software Engineering and Systems Security</p>
+                                            </div>
+                                            <div class="school">
+                                                <span class="year">2002-2007</span>
+                                                <div class="name">high school</div>
+                                                <div class="city">Manchester</div>
+                                                <p>Member of the National Honors Society and National Art Education
+                                                    Association</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="experience">
+                                            <h3><i class="fas fa-briefcase"></i>experince</h3>
+                                            <div class="job">
+                                                <span class="year">2016-NOWADAYS</span>
+                                                <div class="name">true themes inc., senior programmer London</div>
+                                                <div class="city">London</div>
+                                                <p>Lead developer and systems architect designing several high traffic
+                                                    custom e-commerce websites</p>
+                                            </div>
+                                            <div class="job">
+                                                <span class="year">2014-2016</span>
+                                                <div class="name">apple inc., senior web developer
+                                                </div>
+                                                <div class="city">Oxford</div>
+                                                <p>Developed and delivered high-end website solutions to a diverse
+                                                    client
+                                                    base by utilizing wide-ranging technologies and frameworks.</p>
+                                            </div>
+                                            <div class="job">
+                                                <span class="year">2013-2014</span>
+                                                <div class="name">google, full-stack web development</div>
+                                                <div class="city">London</div>
+                                                <p>Facilitating cutting-edge engineering solutions with a wide range of
+                                                    e-commerce application and technology skills.<p>
+                                            </div>
+                                            <div class="job">
+                                                <span class="year">2012-2013</span>
+                                                <div class="name">amazon, software engineer</div>
+                                                <div class="city">London</div>
+                                                <p>Partnered with designers to implement custom web-based simulations
+                                                    for
+                                                    client review.</p>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://kit.fontawesome.com/4a0d6e395d.js" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="../js/scroll.js"></script>
+    <script src="../js/script.js"></script>
+    <script>
+        let icons = document.querySelectorAll(".userdetails div");
+        let sections = document.querySelectorAll(".thirdsection>div");
+        for (let icon of icons) {
+            icon.onclick = function () {
+                let data = this.getAttribute("data-id")
+                for (let section of sections) {
+                    if (data == section.getAttribute("data-id")) {
+                        section.style.width = 100 + "%";
+                        section.style.transitionDelay = 1.5 + "s";
+                    }
+                    else {
+                        section.style.width = 0 + "%";
+                        section.style.transitionDelay = 0 + "s";
+                    }
+                }
+            }
+        }
+
+
+        let choices = document.querySelectorAll(".choices ul li");
+        for (let choice of choices) {
+            choice.onclick = function () {
+                let apps = document.querySelectorAll(".overLay p");
+                for (let app of apps) {
+                    if (this.innerText == app.innerText) {
+                        app.parentElement.parentElement.parentElement.style.display = "block";
+                    } else {
+                        app.parentElement.parentElement.parentElement.style.display = "none";
+                    }
+                    if (this.innerText == "all") {
+                        app.parentElement.parentElement.parentElement.style.display = "block"
+                    }
+                }
+
+            }
+        }
+
+        let pages = document.querySelectorAll(".pages li a");
+        for (let i = 0; i < pages.length - 2; i++) {
+            pages[i].onclick = function (e) {
+                e.preventDefault();
+                document.querySelector(".userdetails").children[i].click();
+            }
+        }
+
+        let Li = document.querySelectorAll(".categories li");
+        Li[1].children[0].onclick = function (e) {
+            e.preventDefault();
+            document.querySelector(".userdetails .note").click();
+        }
+    </script>
+</body>
+
+</html>

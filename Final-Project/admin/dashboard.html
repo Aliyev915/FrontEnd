@@ -1,0 +1,761 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="../img/adminfavicon.png" type="image/x-icon">
+    <title>Dashboard</title>
+</head>
+
+<body>
+    <!-- header -->
+    <header>
+        <div class="navbar">
+            <div class="row justify-content-between w-100">
+                <div class="col-1">
+                    <div class="logo">
+                        <img src="../img/logo/black-logo.png" alt="">
+                    </div>
+                </div>
+                <div class="col-3 text-center">
+                    <div class="user">
+                        <img src="../img/avatar/avatar-1.jpg" alt="user">
+                        <a href="">
+                            Hi, John
+                            <i class="fas fa-caret-down"></i>
+                        </a>
+                        <div class="dropdown">
+                            <ul>
+                                <li>
+                                    <a href="../index.html">Index</a>
+                                </li>
+                                <li>
+                                    <a href="dashboard.html">Dashboard</a>
+                                </li>
+                                <li>
+                                    <a href="message.html">Message</a>
+                                </li>
+                                <li>
+                                    <a href="edit-profile.html">Edit Profile</a>
+                                </li>
+                                <li>
+                                    <a href="">Logout</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="navbar-responsive">
+            <div class="row justify-content-between w-100">
+                <div class="logo">
+                    <img src="../img/logo/black-logo.png" alt="">
+                </div>
+                <div class="burger-button">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </div>
+            </div>
+            <div class="dropdown-responsive">
+                <ul>
+                    <li>
+                        <a href="../index.html">Index</a>
+                    </li>
+                    <li>
+                        <a href="dashboard.html">Dashboard</a>
+                    </li>
+                    <li>
+                        <a href="post.html">Post a Job</a>
+                    </li>
+                    <li>
+                        <a href="manage-candidate.html">Manage Candidate</a>
+                    </li>
+                    <li>
+                        <a href="manage-job.html">Manage Jobs</a>
+                    </li>
+                    <li>
+                        <a href="message.html">Messages</a>
+                    </li>
+                    <li>
+                        <a href="manage-blog.html">Manage Blog</a>
+                    </li>
+                    <li>
+                        <a href="change-password.html">Change Password</a>
+                    </li>
+                    <li>
+                        <a href="edit-profile.html">Edit Profile</a>
+                    </li>
+                    <li>
+                        <a href="">Logout</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <!-- header -->
+
+    <div class="main">
+        <div class="left-side">
+            <div class="title">
+                <h4>Main</h4>
+            </div>
+            <div class="mainList">
+                <ul>
+                    <li class="active-link">
+                        <a href="dashboard.html">
+                            <i class="fas fa-tachometer-alt"></i>
+                            Dashboard</a>
+                    </li>
+                    <li>
+                        <a href="post.html">
+                            <i class="fas fa-plus"></i>
+                            Post a New Job</a>
+                    </li>
+                    <li>
+                        <a href="manage-candidate.html">
+                            <i class="fas fa-user-check"></i>
+                            Manage Candidate</a>
+                    </li>
+                    <li>
+                        <a href="manage-job.html">
+                            <i class="fas fa-briefcase"></i>
+                            Manage Jobs</a>
+                    </li>
+                    <li>
+                        <a href="message.html">
+                            <i class="far fa-envelope"></i>
+                            Messages</a>
+                    </li>
+                    <li>
+                        <a href="manage-blog.html">
+                            <i class="fas fa-blog"></i>
+                            Manage Blog</a>
+                    </li>
+                    <li>
+                        <a href="change-password.html">
+                            <i class="fas fa-lock"></i>
+                            Change Password</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="title">
+                <h4>Account</h4>
+            </div>
+            <div class="mainList">
+                <ul>
+                    <li>
+                        <a href="edit-profile.html">
+                            <i class="fas fa-user-edit"></i>
+                            Edit Profile
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <i class="fas fa-sign-out-alt"></i>
+                            Logout
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="right-side">
+            <h4>Hello, Sadig Aliyev</h4>
+            <div class="statistic">
+                <div class="row">
+                    <div class="col-lg-3 col-md-4 col-sm-6">
+                        <div class="listing bg-success">
+                            <div class="count">
+                                <h4>242</h4>
+                                <p>Active Listings</p>
+                            </div>
+                            <div class="icon">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-6">
+                        <div class="view bg-warning">
+                            <div class="count">
+                                <h4>1242</h4>
+                                <p>Listing Views</p>
+                            </div>
+                            <div class="icon">
+                                <i class="fas fa-eye"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-6">
+                        <div class="review bg-primary">
+                            <div class="count">
+                                <h4>786</h4>
+                                <p>Reviews</p>
+                            </div>
+                            <div class="icon">
+                                <i class="far fa-comments"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-6">
+                        <div class="bookmark bg-dark">
+                            <div class="count">
+                                <h4>42</h4>
+                                <p>Bookmarked</p>
+                            </div>
+                            <div class="icon">
+                                <i class="far fa-heart"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="user-account">
+                <div class="row">
+                    <div class="col-lg-7">
+                        <div class="users">
+                            <div class="user-nav">
+                                <div class="row justify-content-between">
+                                    <h5>New Users</h5>
+                                    <div class="time">
+                                        <span class="actived" data-id="today">Today</span>
+                                        <span data-id="month">Month</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="userList" data-id="today">
+                                <div class="row mb-4">
+                                    <div class="col-2">
+                                        <div class="image">
+                                            <img src="../img/avatar/avatar-1.jpg" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="col-6">
+                                        <div class="user-info">
+                                            <h5>Emma Connor</h5>
+                                            <span>Visual Designer,Google Inc</span>
+                                        </div>
+                                    </div>
+                                    <div class="col-3 offset-1">
+                                        <div class="follow">
+                                            <button class="btn-follow">Follow</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row mb-4">
+                                    <div class="col-2">
+                                        <div class="image">
+                                            <img src="../img/avatar/avatar-2.jpg" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="col-6">
+                                        <div class="user-info">
+                                            <h5>Wiltor Delton</h5>
+                                            <span>Product Designer, Apple Inc</span>
+                                        </div>
+                                    </div>
+                                    <div class="col-3 offset-1 ">
+                                        <div class="follow">
+                                            <button class="btn-follow">Follow</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row mb-4">
+                                    <div class="col-2">
+                                        <div class="image">
+                                            <img src="../img/avatar/avatar-3.jpg" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="col-6">
+                                        <div class="user-info">
+                                            <h5>John Antony</h5>
+                                            <span>Product Designer, Apple Inc</span>
+                                        </div>
+                                    </div>
+                                    <div class="col-3 offset-1 ">
+                                        <div class="follow">
+                                            <button class="btn-follow">Follow</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row mb-4">
+                                    <div class="col-2">
+                                        <div class="image">
+                                            <img src="../img/avatar/avatar-4.jpg" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="col-6">
+                                        <div class="user-info">
+                                            <h5>Maikel Alisa</h5>
+                                            <span>Product Designer, Apple Inc</span>
+                                        </div>
+                                    </div>
+                                    <div class="col-3 offset-1">
+                                        <div class="follow">
+                                            <button class="btn-follow">Follow</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-2">
+                                        <div class="image">
+                                            <img src="../img/avatar/avatar-4.jpg" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="col-6">
+                                        <div class="user-info">
+                                            <h5>Nick Jessy</h5>
+                                            <span>Visual Designer,Google Inc</span>
+                                        </div>
+                                    </div>
+                                    <div class="col-3 offset-1">
+                                        <div class="follow">
+                                            <button class="btn-follow">Follow</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="userList d-none" data-id="month">
+                                <div class="row mb-4">
+                                    <div class="col-2">
+                                        <div class="image">
+                                            <img src="../img/avatar/avatar-3.jpg" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="col-6">
+                                        <div class="user-info">
+                                            <h5>Emma Connor</h5>
+                                            <span>Visual Designer,Google Inc</span>
+                                        </div>
+                                    </div>
+                                    <div class="col-2 offset-2 ">
+                                        <div class="follow">
+                                            <button class="btn-follow">Follow</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row mb-4">
+                                    <div class="col-2">
+                                        <div class="image">
+                                            <img src="../img/avatar/avatar-4.jpg" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="col-6">
+                                        <div class="user-info">
+                                            <h5>Wiltor Delton</h5>
+                                            <span>Product Designer, Apple Inc</span>
+                                        </div>
+                                    </div>
+                                    <div class="col-2 offset-2 ">
+                                        <div class="follow">
+                                            <button class="btn-follow">Follow</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row mb-4">
+                                    <div class="col-2">
+                                        <div class="image">
+                                            <img src="../img/avatar/avatar-1.jpg" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="col-6">
+                                        <div class="user-info">
+                                            <h5>John Antony</h5>
+                                            <span>Product Designer, Apple Inc</span>
+                                        </div>
+                                    </div>
+                                    <div class="col-2 offset-2 ">
+                                        <div class="follow">
+                                            <button class="btn-follow">Follow</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row mb-4">
+                                    <div class="col-2">
+                                        <div class="image">
+                                            <img src="../img/avatar/avatar-3.jpg" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="col-6">
+                                        <div class="user-info">
+                                            <h5>Maikel Alisa</h5>
+                                            <span>Product Designer, Apple Inc</span>
+                                        </div>
+                                    </div>
+                                    <div class="col-2 offset-2 ">
+                                        <div class="follow">
+                                            <button class="btn-follow">Follow</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-2">
+                                        <div class="image">
+                                            <img src="../img/avatar/avatar-4.jpg" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="col-6">
+                                        <div class="user-info">
+                                            <h5>Nick Jessy</h5>
+                                            <span>Visual Designer,Google Inc</span>
+                                        </div>
+                                    </div>
+                                    <div class="col-2 offset-2 ">
+                                        <div class="follow">
+                                            <button class="btn-follow">Follow</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-5">
+                        <div class="accounts">
+                            <div class="account-nav">
+                                <div class="row justify-content-between">
+                                    <h5>Accounts</h5>
+                                    <div class="time">
+                                        <span class="actived" data-id="today">Today</span>
+                                        <span data-id="month">Month</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accountList" data-id="today">
+                                <div class="row mb-3">
+                                    <div class="col-2">
+                                        <div class="icon">
+                                            <i class="fab fa-linkedin-in"></i>
+                                        </div>
+                                    </div>
+                                    <div class="col-6">
+                                        <div class="account-info">
+                                            <h5>Linkedin</h5>
+                                            <span>$45126</span>
+                                        </div>
+                                    </div>
+                                    <div class="col-2 offset-2">
+                                        <div class="delete">
+                                            <a href="" class="btn-delete">
+                                                <i class="fas fa-trash"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row mb-3">
+                                    <div class="col-2">
+                                        <div class="icon">
+                                            <i class="fab fa-facebook"></i>
+                                        </div>
+                                    </div>
+                                    <div class="col-6">
+                                        <div class="account-info">
+                                            <h5>Facebook</h5>
+                                            <span>$39053</span>
+                                        </div>
+                                    </div>
+                                    <div class="col-2 offset-2">
+                                        <div class="delete">
+                                            <a href="" class="btn-delete">
+                                                <i class="fas fa-trash"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row mb-3">
+                                    <div class="col-2">
+                                        <div class="icon">
+                                            <i class="fab fa-google"></i>
+                                        </div>
+                                    </div>
+                                    <div class="col-6">
+                                        <div class="account-info">
+                                            <h5>Google</h5>
+                                            <span>$46357</span>
+                                        </div>
+                                    </div>
+                                    <div class="col-2 offset-2">
+                                        <div class="delete">
+                                            <a href="" class="btn-delete">
+                                                <i class="fas fa-trash"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row mb-3">
+                                    <div class="col-2">
+                                        <div class="icon">
+                                            <i class="fab fa-dribbble-square"></i>
+                                        </div>
+                                    </div>
+                                    <div class="col-6">
+                                        <div class="account-info">
+                                            <h5>Dribble</h5>
+                                            <span>$21013</span>
+                                        </div>
+                                    </div>
+                                    <div class="col-2 offset-2">
+                                        <div class="delete">
+                                            <a href="" class="btn-delete">
+                                                <i class="fas fa-trash"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row mb-3">
+                                    <div class="col-2">
+                                        <div class="icon">
+                                            <i class="fab fa-behance"></i>
+                                        </div>
+                                    </div>
+                                    <div class="col-6">
+                                        <div class="account-info">
+                                            <h5>Behance</h5>
+                                            <span>$29454</span>
+                                        </div>
+                                    </div>
+                                    <div class="col-2 offset-2">
+                                        <div class="delete">
+                                            <a href="" class="btn-delete">
+                                                <i class="fas fa-trash"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-2">
+                                        <div class="icon">
+                                            <i class="fab fa-twitter"></i>
+                                        </div>
+                                    </div>
+                                    <div class="col-6">
+                                        <div class="account-info">
+                                            <h5>Twitter</h5>
+                                            <span>$39053</span>
+                                        </div>
+                                    </div>
+                                    <div class="col-2 offset-2">
+                                        <div class="delete">
+                                            <a href="" class="btn-delete">
+                                                <i class="fas fa-trash"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accountList d-none" data-id="month">
+                                <div class="row mb-3">
+                                    <div class="col-2">
+                                        <div class="icon">
+                                            <i class="fab fa-facebook"></i>
+                                        </div>
+                                    </div>
+                                    <div class="col-6">
+                                        <div class="account-info">
+                                            <h5>Facebook</h5>
+                                            <span>$39394</span>
+                                        </div>
+                                    </div>
+                                    <div class="col-2 offset-2">
+                                        <div class="delete">
+                                            <a href="" class="btn-delete">
+                                                <i class="fas fa-trash"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row mb-3">
+                                    <div class="col-2">
+                                        <div class="icon">
+                                            <i class="fab fa-linkedin-in"></i>
+                                        </div>
+                                    </div>
+                                    <div class="col-6">
+                                        <div class="account-info">
+                                            <h5>Linkedin</h5>
+                                            <span>$43214</span>
+                                        </div>
+                                    </div>
+                                    <div class="col-2 offset-2">
+                                        <div class="delete">
+                                            <a href="" class="btn-delete">
+                                                <i class="fas fa-trash"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row mb-3">
+                                    <div class="col-2">
+                                        <div class="icon">
+                                            <i class="fab fa-google"></i>
+                                        </div>
+                                    </div>
+                                    <div class="col-6">
+                                        <div class="account-info">
+                                            <h5>Google</h5>
+                                            <span>$46357</span>
+                                        </div>
+                                    </div>
+                                    <div class="col-2 offset-2">
+                                        <div class="delete">
+                                            <a href="" class="btn-delete">
+                                                <i class="fas fa-trash"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row mb-3">
+                                    <div class="col-2">
+                                        <div class="icon">
+                                            <i class="fab fa-dribbble-square"></i>
+                                        </div>
+                                    </div>
+                                    <div class="col-6">
+                                        <div class="account-info">
+                                            <h5>Dribble</h5>
+                                            <span>$21013</span>
+                                        </div>
+                                    </div>
+                                    <div class="col-2 offset-2">
+                                        <div class="delete">
+                                            <a href="" class="btn-delete">
+                                                <i class="fas fa-trash"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row mb-3">
+                                    <div class="col-2">
+                                        <div class="icon">
+                                            <i class="fab fa-behance"></i>
+                                        </div>
+                                    </div>
+                                    <div class="col-6">
+                                        <div class="account-info">
+                                            <h5>Behance</h5>
+                                            <span>$29454</span>
+                                        </div>
+                                    </div>
+                                    <div class="col-2 offset-2">
+                                        <div class="delete">
+                                            <a href="" class="btn-delete">
+                                                <i class="fas fa-trash"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-2">
+                                        <div class="icon">
+                                            <i class="fab fa-twitter"></i>
+                                        </div>
+                                    </div>
+                                    <div class="col-6">
+                                        <div class="account-info">
+                                            <h5>Twitter</h5>
+                                            <span>$39053</span>
+                                        </div>
+                                    </div>
+                                    <div class="col-2 offset-2">
+                                        <div class="delete">
+                                            <a href="" class="btn-delete">
+                                                <i class="fas fa-trash"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="latest-project">
+                <table class="table">
+                    <div class="title">
+                        <h4>Latest Projects</h4>
+                    </div>
+                    <thead>
+                        <tr>
+                            <th scope="col">#</th>
+                            <th scope="col">Project Name</th>
+                            <th scope="col">Start Date</th>
+                            <th scope="col">Due Date</th>
+                            <th scope="col">Status</th>
+                            <th scope="col">Assign</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th scope="row">1</th>
+                            <td>Adminto Admin v1</td>
+                            <td>01/01/2018</td>
+                            <td>26/04/2018</td>
+                            <td>
+                                <span class="release">Released</span>
+                            </td>
+                            <td>Coderthemes</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">2</th>
+                            <td>Adminto Frontend v1</td>
+                            <td>04/01/2018</td>
+                            <td>30/04/2018</td>
+                            <td>
+                                <span class="release">Released</span>
+                            </td>
+                            <td>Adminto Admin</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">3</th>
+                            <td>Adminto Admin v1.1</td>
+                            <td>01/05/2018</td>
+                            <td>10/05/2018</td>
+                            <td>
+                                <span class="pend">Pending</span>
+                            </td>
+                            <td>Coderthemes</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">4</th>
+                            <td>Adminto Admin v1.2</td>
+                            <td>18/06/2018</td>
+                            <td>24/07/2018</td>
+                            <td>
+                                <span class="work-in-progress">Work in Progress</span>
+                            </td>
+                            <td>Adminto Admin</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">5</th>
+                            <td>Adminto Admin v2.1</td>
+                            <td></td>
+                            <td></td>
+                            <td>
+                                <span class="soon">Coming Soon</span>
+                            </td>
+                            <td>Coderthemes</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="copyright">
+                <p>© 2018 Theme Vessel. Trademarks and brands are the property of their respective owners.</p>
+            </div>
+        </div>
+        <!-- back to top -->
+        <div class="back-to-top">
+            <i class="fas fa-chevron-up"></i>
+        </div>
+        <!-- back to top -->
+    </div>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://kit.fontawesome.com/4a0d6e395d.js" crossorigin="anonymous"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>

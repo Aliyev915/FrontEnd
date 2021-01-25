@@ -1,0 +1,141 @@
+/* navbar-responsive */
+@media screen and (max-width:992px){
+    .navbarSection{
+        display: none !important;
+    }
+    .responsive-navbar{
+        display: block;
+        padding: 20px 40px;
+    }
+    .responsive-navbar .logo{
+        margin-top: 0.01rem;
+    }
+    .burger-button>div{
+        width: 25px;
+        height: 2px;
+        margin:6px 0;
+        background-color: #6c757d;
+    }
+    .nav-list{
+        padding-top: 10px;
+        margin-top: 15px;
+        background-color: #f8f9fa;
+        display: none;
+        overflow: hidden;
+    }
+    .nav-list ul li{
+        list-style-type: none;
+    }
+    .nav-list ul li a{
+        color: #343a40;
+        line-height: 2;
+        text-decoration: none;
+    }
+    .nav-list ul li a:hover,.nav-list ul li:hover{
+        color: #007bff;
+    }
+    .page-responsive .dropDownList{
+        position: static;
+        width: 100%;
+        display: none;
+        padding: 0;
+    }
+    .banner-area{
+        height: 450px;
+    }
+    .banner-area .content h1{
+        font-size: 40px;
+    }
+    .banner-area .content p{
+        letter-spacing: 0.07rem;
+        font-size: 14px;
+    }
+    .banner-area .location-area,.fixed-navbar{
+        display: none !important;
+    }
+    .search-area{
+        position: absolute;
+        top: 70%;
+    }
+    .banner-area .clock{
+        top: 50%;
+        margin-left: 1.8%;
+    }
+    .banner-area .clock div span:nth-child(2),.banner-area .clock h2,.banner-area .content{
+        display: none;
+    }
+    .blog-area .icons{
+        display: none;
+    }
+    footer .copyright .link,.copyright .sosial{
+        width: 100%;
+        text-align: center;
+        margin: 10px 0;
+    }
+    .job-search-listing{
+        margin-top: 150px;
+    }
+
+
+    .sort-section{
+        margin: 20px 0;
+    }
+
+    .jobs .job{
+        padding: 10px 30px;
+    }
+
+    .job .name h4,.job .about{
+        margin-left: 10px;
+    }
+
+    .job-about .favorite{
+        margin-left: 33.33%;
+    }
+
+    .findJob{
+        display: none;
+    }
+    .search-icon{
+        display: inline-block;
+    }
+}
+/* navbar-responsive */
+
+
+@media screen and (max-width:768px){
+    .job-list .company-logo{
+        width: 75%;
+        height: 100px;
+    }
+    .favorite{
+        margin-left: 33.33%;
+    }
+
+    .job-search-listing .candidate{
+        margin: 25px 5px;
+        padding: 20px 10px;
+    }
+}
+
+@media screen and (max-width:576px){
+    .recent-jobs .job-list .company-logo{
+        width: 20%;
+        height: 100px;
+    }
+    .search-area{
+        width: 80%;
+        text-align: center;
+        margin-left: 10%;
+    }
+    .favorite{
+        margin-left: 10px !important;
+    }
+    .search-icon{
+        width: 50%;
+        margin-top: 10px;
+    }
+    .employers .image,.employers .image img{
+        width: 50%;
+    }
+}

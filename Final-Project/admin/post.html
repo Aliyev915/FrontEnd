@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="../img/adminfavicon.png" type="image/x-icon">
+    <title>Dashboard</title>
+</head>
+
+<body>
+
+    <!-- header -->
+    <header>
+        <div class="navbar">
+            <div class="row justify-content-between w-100">
+                <div class="col-1">
+                    <div class="logo">
+                        <img src="../img/logo/black-logo.png" alt="">
+                    </div>
+                </div>
+                <div class="col-3 text-center">
+                    <div class="user">
+                        <img src="../img/avatar/avatar-1.jpg" alt="user">
+                        <a href="">
+                            Hi, John
+                            <i class="fas fa-caret-down"></i>
+                        </a>
+                        <div class="dropdown">
+                            <ul>
+                                <li>
+                                    <a href="../index.html">Index</a>
+                                </li>
+                                <li>
+                                    <a href="dashboard.html">Dashboard</a>
+                                </li>
+                                <li>
+                                    <a href="message.html">Message</a>
+                                </li>
+                                <li>
+                                    <a href="edit-profile.html">Edit Profile</a>
+                                </li>
+                                <li>
+                                    <a href="">Logout</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="navbar-responsive">
+            <div class="row justify-content-between w-100">
+                <div class="logo">
+                    <img src="../img/logo/black-logo.png" alt="">
+                </div>
+                <div class="burger-button">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </div>
+            </div>
+            <div class="dropdown-responsive">
+                <ul>
+                    <li>
+                        <a href="../index.html">Index</a>
+                    </li>
+                    <li>
+                        <a href="dashboard.html">Dashboard</a>
+                    </li>
+                    <li>
+                        <a href="post.html">Post a Job</a>
+                    </li>
+                    <li>
+                        <a href="manage-candidate.html">Manage Candidate</a>
+                    </li>
+                    <li>
+                        <a href="manage-job.html">Manage Jobs</a>
+                    </li>
+                    <li>
+                        <a href="message.html">Messages</a>
+                    </li>
+                    <li>
+                        <a href="manage-blog.html">Manage Blog</a>
+                    </li>
+                    <li>
+                        <a href="change-password.html">Change Password</a>
+                    </li>
+                    <li>
+                        <a href="edit-profile.html">Edit Profile</a>
+                    </li>
+                    <li>
+                        <a href="">Logout</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <!-- header -->
+
+
+    <div class="main">
+        <div class="left-side">
+            <div class="title">
+                <h4>Main</h4>
+            </div>
+            <div class="mainList">
+                <ul>
+                    <li>
+                        <a href="dashboard.html">
+                            <i class="fas fa-tachometer-alt"></i>
+                            Dashboard</a>
+                    </li>
+                    <li class="active-link">
+                        <a href="post.html">
+                            <i class="fas fa-plus"></i>
+                            Post a New Job</a>
+                    </li>
+                    <li>
+                        <a href="manage-candidate.html">
+                            <i class="fas fa-user-check"></i>
+                            Manage Candidate</a>
+                    </li>
+                    <li>
+                        <a href="manage-job.html">
+                            <i class="fas fa-briefcase"></i>
+                            Manage Jobs</a>
+                    </li>
+                    <li>
+                        <a href="message.html">
+                            <i class="far fa-envelope"></i>
+                            Messages</a>
+                    </li>
+                    <li>
+                        <a href="transaction.html">
+                            <i class="fas fa-blog"></i>
+                            Manage Blog</a>
+                    </li>
+                    <li>
+                        <a href="change-password.html">
+                            <i class="fas fa-lock"></i>
+                            Change Password</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="title">
+                <h4>Account</h4>
+            </div>
+            <div class="mainList">
+                <ul>
+                    <li>
+                        <a href="edit-profile.html">
+                            <i class="fas fa-user-edit"></i>
+                            Edit Profile
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <i class="fas fa-sign-out-alt"></i>
+                            Logout
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="right-side">
+            <h4>Post a Job</h4>
+            <div class="post">
+                <div class="title">
+                    <h4>Basic Information</h4>
+                </div>
+                <div class="form">
+                    <form action="">
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <label for="">Job Title</label> <br>
+                                <input type="text" class="input-text" placeholder="Your Title">
+                            </div>
+                            <div class="col-lg-6">
+                                <label for="">Job Type</label> <br>
+                                <input type="text" class="input-text" readonly placeholder="Type">
+                                <div class="selectList">
+                                    <ul>
+                                        <li>Full Time</li>
+                                        <li>Part Time</li>
+                                        <li>Temprorary</li>
+                                        <li>Freelance</li>
+                                    </ul>
+                                </div>
+                                <div class="down">
+                                    <i class="fas fa-caret-down"></i>
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <label for="">Job Category</label> <br>
+                                <input type="text" class="input-text" readonly placeholder="Category">
+                                <div class="selectList">
+                                    <ul>
+                                        <li>Accounting/Finance</li>
+                                        <li>Restaurant</li>
+                                        <li>Counseling</li>
+                                        <li>Health Care</li>
+                                    </ul>
+                                </div>
+                                <div class="down">
+                                    <i class="fas fa-caret-down"></i>
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <label for="">Gender</label> <br>
+                                <input type="text" class="input-text" readonly placeholder="Gender">
+                                <div class="selectList">
+                                    <ul>
+                                        <li>All</li>
+                                        <li>Male</li>
+                                        <li>Female</li>
+                                    </ul>
+                                </div>
+                                <div class="down">
+                                    <i class="fas fa-caret-down"></i>
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <label for="">Currency</label> <br>
+                                <input type="text" class="input-text" readonly placeholder="Currency">
+                                <div class="selectList">
+                                    <ul>
+                                        <li>AZN</li>
+                                        <li>USD</li>
+                                        <li>EURO</li>
+                                    </ul>
+                                </div>
+                                <div class="down">
+                                    <i class="fas fa-caret-down"></i>
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <label for="">Salary</label> <br>
+                                <input type="number" min="300" step="50" class="input-text" placeholder="Salary">
+                            </div>
+                            <div class="col-lg-6">
+                                <label for="">Country</label> <br>
+                                <input type="text" class="input-text" readonly placeholder="Country">
+                                <div class="selectList">
+                                    <ul>
+                                        <li>Azerbaijan</li>
+                                        <li>Turkey</li>
+                                        <li>Russian</li>
+                                    </ul>
+                                </div>
+                                <div class="down">
+                                    <i class="fas fa-caret-down"></i>
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <label for="">City</label> <br>
+                                <input type="text" class="input-text" readonly placeholder="City">
+                                <div class="selectList">
+                                    <ul>
+                                        <li>Baku</li>
+                                        <li>Istanbul</li>
+                                        <li>Moscow</li>
+                                    </ul>
+                                </div>
+                                <div class="down">
+                                    <i class="fas fa-caret-down"></i>
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <label for="">Education</label> <br>
+                                <input type="text" class="input-text" readonly placeholder="Education">
+                                <div class="selectList">
+                                    <ul>
+                                        <li>Subbachelor</li>
+                                        <li>Bachelor</li>
+                                        <li>Master</li>
+                                    </ul>
+                                </div>
+                                <div class="down">
+                                    <i class="fas fa-caret-down"></i>
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <label for="">Experience</label> <br>
+                                <input type="number" min="0" max="20" class="input-text" placeholder="Experience">
+                            </div>
+                            <div class="col-lg-12">
+                                <label for="">Job Description</label>
+                                <textarea rows="8" placeholder="Detailed Information"></textarea>
+                            </div>
+                            <div class="col-lg-6 mt-5">
+                                <div class="btn-upload">File Upload</div>
+                                <input type="file" class="file-input" style="display: none;">
+                                <button class="btn-post">Post a Job</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>© 2018 Theme Vessel. Trademarks and brands are the property of their respective owners.</p>
+            </div>
+        </div>
+        <!-- back to top -->
+        <div class="back-to-top">
+            <i class="fas fa-chevron-up"></i>
+        </div>
+        <!-- back to top -->
+    </div>
+
+
+    <script>
+        let btnUpload = document.querySelector('.btn-upload');
+        let fileInput = document.querySelector('.file-input');
+        btnUpload.onclick = function () {
+            fileInput.click();
+        }
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://kit.fontawesome.com/4a0d6e395d.js" crossorigin="anonymous"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>

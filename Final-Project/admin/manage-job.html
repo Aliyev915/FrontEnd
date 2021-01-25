@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="../img/adminfavicon.png" type="image/x-icon">
+    <title>Manage Job</title>
+</head>
+
+<body>
+
+    <!-- header -->
+    <header>
+        <div class="navbar">
+            <div class="row justify-content-between w-100">
+                <div class="col-1">
+                    <div class="logo">
+                        <img src="../img/logo/black-logo.png" alt="">
+                    </div>
+                </div>
+                <div class="col-3 text-center">
+                    <div class="user">
+                        <img src="../img/avatar/avatar-1.jpg" alt="user">
+                        <a href="">
+                            Hi, John
+                            <i class="fas fa-caret-down"></i>
+                        </a>
+                        <div class="dropdown">
+                            <ul>
+                                <li>
+                                    <a href="../index.html">Index</a>
+                                </li>
+                                <li>
+                                    <a href="dashboard.html">Dashboard</a>
+                                </li>
+                                <li>
+                                    <a href="message.html">Message</a>
+                                </li>
+                                <li>
+                                    <a href="edit-profile.html">Edit Profile</a>
+                                </li>
+                                <li>
+                                    <a href="">Logout</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="navbar-responsive">
+            <div class="row justify-content-between w-100">
+                <div class="logo">
+                    <img src="../img/logo/black-logo.png" alt="">
+                </div>
+                <div class="burger-button">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </div>
+            </div>
+            <div class="dropdown-responsive">
+                <ul>
+                    <li>
+                        <a href="../index.html">Index</a>
+                    </li>
+                    <li>
+                        <a href="dashboard.html">Dashboard</a>
+                    </li>
+                    <li>
+                        <a href="post.html">Post a Job</a>
+                    </li>
+                    <li>
+                        <a href="manage-candidate.html">Manage Candidate</a>
+                    </li>
+                    <li>
+                        <a href="manage-job.html">Manage Jobs</a>
+                    </li>
+                    <li>
+                        <a href="message.html">Messages</a>
+                    </li>
+                    <li>
+                        <a href="manage-blog.html">Manage Blog</a>
+                    </li>
+                    <li>
+                        <a href="change-password.html">Change Password</a>
+                    </li>
+                    <li>
+                        <a href="edit-profile.html">Edit Profile</a>
+                    </li>
+                    <li>
+                        <a href="">Logout</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <!-- header -->
+
+
+    <div class="main">
+        <div class="left-side">
+            <div class="title">
+                <h4>Main</h4>
+            </div>
+            <div class="mainList">
+                <ul>
+                    <li>
+                        <a href="dashboard.html">
+                            <i class="fas fa-tachometer-alt"></i>
+                            Dashboard</a>
+                    </li>
+                    <li>
+                        <a href="post.html">
+                            <i class="fas fa-plus"></i>
+                            Post a New Job</a>
+                    </li>
+                    <li>
+                        <a href="manage-candidate.html">
+                            <i class="fas fa-user-check"></i>
+                            Manage Candidate</a>
+                    </li>
+                    <li class="active-link">
+                        <a href="manage-job.html">
+                            <i class="fas fa-briefcase"></i>
+                            Manage Jobs</a>
+                    </li>
+                    <li>
+                        <a href="message.html">
+                            <i class="far fa-envelope"></i>
+                            Messages</a>
+                    </li>
+                    <li>
+                        <a href="transaction.html">
+                            <i class="fas fa-blog"></i>
+                            Manage Blog</a>
+                    </li>
+                    <li>
+                        <a href="change-password.html">
+                            <i class="fas fa-lock"></i>
+                            Change Password</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="title">
+                <h4>Account</h4>
+            </div>
+            <div class="mainList">
+                <ul>
+                    <li>
+                        <a href="edit-profile.html">
+                            <i class="fas fa-user-edit"></i>
+                            Edit Profile
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <i class="fas fa-sign-out-alt"></i>
+                            Logout
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="right-side">
+            <h4>Manage Job</h4>
+            <div class="manage">
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th scope="col">Job Title</th>
+                            <th scope="col">Date</th>
+                            <th scope="col">Applications</th>
+                            <th scope="col">Status</th>
+                            <th scope="col">Active</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th scope="row">
+                                <div class="job">
+                                    <div class="job-info">
+                                        <div class="name">
+                                            <h4>Restaurant General Manager</h4>
+                                        </div>
+                                        <div class="info">
+                                            <span><i class="fas fa-briefcase"></i> Content Writer</span>
+                                            <span><i class="fas fa-map-marker-alt"></i> New York City</span>
+                                            <span><i class="far fa-clock"></i>Full Time</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </th>
+                            <td>Jan 31, 2019</td>
+                            <td>5</td>
+                            <td>Active</td>
+                            <td>
+                                <a href="">
+                                    <i class="fas fa-edit"></i>
+                                </a>
+                                <a href="">
+                                    <i class="fas fa-trash"></i>
+                                </a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th scope="row">
+                                <div class="job">
+                                    <div class="job-info">
+                                        <div class="name">
+                                            <h4>Green Development Marketer</h4>
+                                        </div>
+                                        <div class="info">
+                                            <span><i class="fas fa-briefcase"></i> Content Writer</span>
+                                            <span><i class="fas fa-map-marker-alt"></i> New York City</span>
+                                            <span><i class="far fa-clock"></i>Full Time</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </th>
+                            <td>Jan 31, 2019</td>
+                            <td>7</td>
+                            <td>Active</td>
+                            <td>
+                                <a href="">
+                                    <i class="fas fa-edit"></i>
+                                </a>
+                                <a href="">
+                                    <i class="fas fa-trash"></i>
+                                </a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th scope="row">
+                                <div class="job">
+                                    <div class="job-info">
+                                        <div class="name">
+                                            <h4>Development Marketer</h4>
+                                        </div>
+                                        <div class="info">
+                                            <span><i class="fas fa-briefcase"></i> Content Writer</span>
+                                            <span><i class="fas fa-map-marker-alt"></i> New York City</span>
+                                            <span><i class="far fa-clock"></i>Full Time</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </th>
+                            <td>Jan 25, 2019</td>
+                            <td>9</td>
+                            <td>Active</td>
+                            <td>
+                                <a href="">
+                                    <i class="fas fa-edit"></i>
+                                </a>
+                                <a href="">
+                                    <i class="fas fa-trash"></i>
+                                </a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th scope="row">
+                                <div class="job">
+                                    <div class="job-info">
+                                        <div class="name">
+                                            <h4>Xero Development Marketer</h4>
+                                        </div>
+                                        <div class="info">
+                                            <span><i class="fas fa-briefcase"></i> Content Writer</span>
+                                            <span><i class="fas fa-map-marker-alt"></i> New York City</span>
+                                            <span><i class="far fa-clock"></i>Full Time</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </th>
+                            <td>Jan 31, 2019</td>
+                            <td>7</td>
+                            <td>Active</td>
+                            <td>
+                                <a href="">
+                                    <i class="fas fa-edit"></i>
+                                </a>
+                                <a href="">
+                                    <i class="fas fa-trash"></i>
+                                </a>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="copyright">
+                <p>© 2018 Theme Vessel. Trademarks and brands are the property of their respective owners.</p>
+            </div>
+        </div>
+        <!-- back to top -->
+        <div class="back-to-top">
+            <i class="fas fa-chevron-up"></i>
+        </div>
+        <!-- back to top -->
+    </div>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://kit.fontawesome.com/4a0d6e395d.js" crossorigin="anonymous"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>

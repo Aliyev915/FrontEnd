@@ -1,0 +1,602 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="OwlCarousel2-2.3.4/dist/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="shortcut icon" href="img/favicon.jpg" type="image/x-icon">
+    <title>Candidate Detail</title>
+</head>
+
+<body>
+    <!-- header section -->
+    <header class="sub-pages-header">
+
+        <!-- responsive navbar -->
+        <div class="responsive-navbar">
+            <div class="container">
+                <div class="row justify-content-between">
+                    <div class="logo">
+                        <img src="img/logo/black-logo.png" alt="logo">
+                    </div>
+                    <div class="burger-button">
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                    </div>
+                </div>
+            </div>
+            <div class="nav-list">
+                <ul>
+                    <li>
+                        <a href="index.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="about.html">About</a>
+                    </li>
+                    <li>
+                        <a href="blog.html">Blog</a>
+                    </li>
+                    <li>
+                        <a href="contact.html">Contact Us</a>
+                    </li>
+                    <li class="page-responsive">
+                        Other <i class="fas fa-caret-down ml-2"></i>
+                        <div class="dropDownList">
+                            <div class="left-down">
+                                <ul>
+                                    <li>
+                                        <a href="candidate.html">Candidates</a>
+                                    </li>
+                                    <li>
+                                        <a href="employer.html">Employers</a>
+                                    </li>
+                                    <li>
+                                        <a href="job.html">Jobs</a>
+                                    </li>
+                                    <li>
+                                        <a href="login.html">Login</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="login.html"><i class="fas fa-sign-out-alt mr-2"></i> Sign In</a>
+                    </li>
+                    <li>
+                        <a href="admin/post.html"><i class="fas fa-plus mr-2"></i> Post a Job</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!-- responsive navbar -->
+
+        <!-- banner-area -->
+        <div class="sub-banner-area">
+            <div class="content">
+                <h2>Candidate Detail</h2>
+            </div>
+        </div>
+        <!-- banner-area -->
+
+        <!-- navbar -->
+        <div class="navbarSection">
+            <div class="container">
+                <div class="row">
+                    <div class="col-2 logo">
+                        <img src="img/logo/logo.png" alt="logo">
+                    </div>
+                    <div class="col-6 navbarList">
+                        <ul>
+                            <li>
+                                <a href="index.html">Home</a>
+                            </li>
+                            <li>
+                                <a href="about.html">About Us</a>
+                            </li>
+                            <li>
+                                <a href="blog.html">Blogs</a>
+                            </li>
+                            <li>
+                                <a href="contact.html">Contact Us</a>
+                            </li>
+                            <li class="page">
+                                Other
+                                <div class="dropDownList">
+                                    <div class="centre-down">
+                                        <ul>
+                                            <li>
+                                                <a href="candidate.html">Candidates</a>
+                                            </li>
+                                            <li>
+                                                <a href="employer.html">Employers</a>
+                                            </li>
+                                            <li>
+                                                <a href="job.html">Jobs</a>
+                                            </li>
+                                            <li>
+                                                <a href="login.html">Login</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="offset-1 col-3 d-flex">
+                        <div class="SignIn">
+                            <a href="login.html"><i class="fas fa-sign-out-alt"></i> Sign In</a>
+                        </div>
+                        <div class="addPost">
+                            <a class="btnPost" href="admin/post.html"> Post a Job</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- navbar -->
+
+        <!-- fixed navbar -->
+        <div class="fixed-navbar">
+            <div class="container">
+                <div class="row">
+                    <div class="col-2 logo">
+                        <img src="img/logo/black-logo.png" alt="logo">
+                    </div>
+                    <div class="col-6 navbarList">
+                        <ul>
+                            <li>
+                                <a href="index.html">Home</a>
+                            </li>
+                            <li>
+                                <a href="about.html">About Us</a>
+                            </li>
+                            <li>
+                                <a href="blog.html">Blogs</a>
+                            </li>
+                            <li>
+                                <a href="contact.html">Contact Us</a>
+                            </li>
+                            <li class="page">
+                                Other
+                                <div class="dropDownList">
+                                    <div class="centre-down">
+                                        <ul>
+                                            <li>
+                                                <a href="candidate.html">Candidates</a>
+                                            </li>
+                                            <li>
+                                                <a href="employer.html">Employers</a>
+                                            </li>
+                                            <li>
+                                                <a href="job.html">Jobs</a>
+                                            </li>
+                                            <li>
+                                                <a href="login.html">Login</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="offset-1 col-3 d-flex">
+                        <div class="SignIn">
+                            <a href="login.html"><i class="fas fa-sign-out-alt"></i> Sign In</a>
+                        </div>
+                        <div class="addPost">
+                            <a class="btnPost" href="admin/post.html"> Post a Job</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- fixed navbar -->
+
+    </header>
+    <!-- header section -->
+
+    <!--candidate detail start  -->
+    <div class="candidate-detail">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8">
+                    <div class="left-section">
+                        <div class="candidate-feature">
+                            <div class="row">
+                                <div class="col-2">
+                                    <div class="image">
+                                        <img src="img/avatar/avatar-1.jpg" alt="">
+                                    </div>
+                                </div>
+                                <div class="col-10">
+                                    <div class="info">
+                                        <div class="name">
+                                            Martin Smith
+                                        </div>
+                                        <span><i class="far fa-check-circle"></i> Writer</span>
+                                        <span><i class="fas fa-map-marker-alt"></i> New York City</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="candidate-about">
+                            <h3>About Me</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas in pulvinar neque.
+                                Nulla finibus lobortis pulvinar. Donec a consectetur nulla. Nulla posuere sapien vitae
+                                lectus suscipit, et pulvinar nisi tincidunt. Aliquam erat volutpat. Curabitur convallis
+                                fringilla diam sed aliquam. Sed tempor iaculis massa faucibus feugiat. In fermentum
+                                facilisis massa, a consequat purus viverra a. Aliquam pellentesque nibh et nibh feugiat
+                                gravida. Maecenas ultricies, diam vitae semper placerat, velit risus accumsan nisl, eget
+                                tempor lacus est vel nunc. Proin accumsan elit sed neque euismod fringilla. Curabitur
+                                lobortis nunc velit, et fermentum urna dapibus non. Vivamus magna lorem, elementum id
+                                gravida ac, laoreet tristique augue. Maecenas dictum lacus eu nunc porttitor, ut
+                                hendrerit arcu efficitur.</p>
+                        </div>
+                        <div class="candidate-education">
+                            <h3>Education</h3>
+                            <div class="row my-5">
+                                <div class="col-2">
+                                    <div class="icon">
+                                        <i class="fas fa-graduation-cap"></i>
+                                    </div>
+                                </div>
+                                <div class="col-10">
+                                    <div class="speciality">
+                                        <p>Web Designer</p>
+                                        <p>/ themeforest</p>
+                                    </div>
+                                    <div class="year ">
+                                        <p>2015-2019</p>
+                                    </div>
+                                    <div class="description">
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec luctus tincidunt
+                                        aliquam. Aliquam gravida massa at sem vulputate interdum.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row my-3">
+                                <div class="col-2">
+                                    <div class="icon">
+                                        <i class="fas fa-graduation-cap"></i>
+                                    </div>
+                                </div>
+                                <div class="col-10">
+                                    <div class="speciality">
+                                        <p>Graghic Designer</p>
+                                        <p>/ themeforest</p>
+                                    </div>
+                                    <div class="year">
+                                        <p>2019-</p>
+                                    </div>
+                                    <div class="description">
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec luctus tincidunt
+                                        aliquam. Aliquam gravida massa at sem vulputate interdum.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="candidate-experience">
+                            <h3>Work Experience</h3>
+                            <div class="row my-5">
+                                <div class="col-2">
+                                    <div class="icon">
+                                        <i class="fas fa-briefcase"></i>
+                                    </div>
+                                </div>
+                                <div class="col-10">
+                                    <div class="speciality">
+                                        <p>Dhaka College</p>
+                                        <p>/ Economics</p>
+                                    </div>
+                                    <div class="year ">
+                                        <p>2015-2019</p>
+                                    </div>
+                                    <div class="description">
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec luctus tincidunt
+                                        aliquam. Aliquam gravida massa at sem vulputate interdum.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row my-3">
+                                <div class="col-2">
+                                    <div class="icon">
+                                        <i class="fas fa-briefcase"></i>
+                                    </div>
+                                </div>
+                                <div class="col-10">
+                                    <div class="speciality">
+                                        <p> University of south asia</p>
+                                        <p>/ Computer Science</p>
+                                    </div>
+                                    <div class="year">
+                                        <p>2019-</p>
+                                    </div>
+                                    <div class="description">
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec luctus tincidunt
+                                        aliquam. Aliquam gravida massa at sem vulputate interdum.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="candidate-skill">
+                            <h3>Professional Skills</h3>
+                            <div class="skill my-3">
+                                <div class="row justify-content-between px-3">
+                                    <p>Web Development</p>
+                                    <p>80%</p>
+                                </div>
+                                <div class="bar">
+                                    <div class="progress-skill" style="width: 80%;"></div>
+                                </div>
+                            </div>
+                            <div class="skill my-3">
+                                <div class="row justify-content-between px-3">
+                                    <p>Consulting</p>
+                                    <p>100%</p>
+                                </div>
+                                <div class="bar">
+                                    <div class="progress-skill" style="width: 100%;"></div>
+                                </div>
+                            </div>
+                            <div class="skill my-3">
+                                <div class="row justify-content-between px-3">
+                                    <p>Branding & Identity</p>
+                                    <p>70%</p>
+                                </div>
+                                <div class="bar">
+                                    <div class="progress-skill" style="width: 70%;"></div>
+                                </div>
+                            </div>
+                            <div class="skill my-3">
+                                <div class="row justify-content-between px-3">
+                                    <p>Graghic Design</p>
+                                    <p>90%</p>
+                                </div>
+                                <div class="bar">
+                                    <div class="progress-skill" style="width: 90%;"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="candidate-portfolio">
+                            <h3>Portfolio</h3>
+                            <div class="row owl-carousel owl-theme">
+                                <div class="portfolio">
+                                    <div class="image">
+                                        <img src="img/gallery/img-1.jpg" alt="">
+                                    </div>
+                                </div>
+                                <div class="portfolio">
+                                    <div class="image">
+                                        <img src="img/gallery/img-2.jpg" alt="">
+                                    </div>
+                                </div>
+                                <div class="portfolio">
+                                    <div class="image">
+                                        <img src="img/gallery/img-3.jpg" alt="">
+                                    </div>
+                                </div>
+                                <div class="portfolio">
+                                    <div class="image">
+                                        <img src="img/gallery/img-4.jpg" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="icons left">
+                                <i class="fas fa-angle-left"></i>
+                            </div>
+                            <div class="icons right">
+                                <i class="fas fa-angle-right"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="right-section">
+                        <div class="download">
+                            <button class="btn-download">
+                                download cv
+                            </button>
+                        </div>
+                        <div class="search-side">
+                            <div class="overview">
+                                <h3>Job Overview</h3>
+                                <div class="row">
+                                    <div class="col-3">
+                                        <i class="fas fa-hand-holding-usd"></i>
+                                    </div>
+                                    <div class="col-9">
+                                        <h5 style="font-weight: bold;">Salary</h5>
+                                        <p>£12,000 - £25,000</p>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-3">
+                                        <i class="fas fa-map-marker-alt"></i>
+                                    </div>
+                                    <div class="col-9">
+                                        <h5 style="font-weight: bold;">Location</h5>
+                                        <p>New York City</p>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-3">
+                                        <i class="fas fa-briefcase"></i>
+                                    </div>
+                                    <div class="col-9">
+                                        <h5 style="font-weight: bold;">Job Type</h5>
+                                        <p>Full Time</p>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-3">
+                                        <i class="fas fa-chart-line"></i>
+                                    </div>
+                                    <div class="col-9">
+                                        <h5 style="font-weight: bold;">Experience</h5>
+                                        <p>2-3 Years</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="quick-contact">
+                                <h3>Quick Contact</h3>
+                                <form action="">
+                                    <input type="text" placeholder="Name">
+                                    <input type="text" placeholder="Name">
+                                    <textarea rows="5" placeholder="Write message"></textarea>
+                                    <button class="btn-send">Send Message</button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--candidate detail end  -->
+
+    <!-- back to top -->
+    <div class="back-to-top">
+        <i class="fas fa-chevron-up"></i>
+    </div>
+    <!-- back to top -->
+
+    <!-- footer start -->
+    <footer>
+        <div class="container">
+            <div class="footer-menu row">
+                <div class="col-lg-3 col-md-4 col-sm-6 mt-3">
+                    <div class="logo">
+                        <img src="img/logo/logo.png" alt="logo">
+                    </div>
+                    <div class="adress">
+                        <i class="fas fa-map-marker-alt"></i> 20/F Green Road, Dhanmondi, Dhaka
+                    </div>
+                    <div class="envelope">
+                        <i class="far fa-envelope"></i> info@themevessel.com
+                    </div>
+                    <div class="phone">
+                        <i class="fas fa-phone-alt"></i> +0477 85X6 552
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-4 col-sm-6 mt-3">
+                    <h3>Helpful Links</h3>
+                    <ul>
+                        <li>
+                            <a href="">About Us</a>
+                        </li>
+                        <li>
+                            <a href="">Contact Us</a>
+                        </li>
+                        <li>
+                            <a href="">Terms & Conditions</a>
+                        </li>
+                        <li>
+                            <a href="">Privacy Policy</a>
+                        </li>
+                        <li>
+                            <a href="">Blog</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-lg-2 col-md-4 col-sm-6 mt-3">
+                    <h3>Job Seekers</h3>
+                    <ul>
+                        <li>
+                            <a href="">Create Account</a>
+                        </li>
+                        <li>
+                            <a href="">Career Counseling</a>
+                        </li>
+                        <li>
+                            <a href="">My Oficiona</a>
+                        </li>
+                        <li>
+                            <a href="">FAQ</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-lg-2 col-md-4 col-sm-6 mt-3">
+                    <h3>Employers</h3>
+                    <ul>
+                        <li>
+                            <a href="">Create Account</a>
+                        </li>
+                        <li>
+                            <a href="">Products $ Service</a>
+                        </li>
+                        <li>
+                            <a href="">Post a Task</a>
+                        </li>
+                        <li>
+                            <a href="">FAQ</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md mt-3 sendEmail">
+                    <h3>Newsletter</h3>
+                    <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit.</p>
+                    <input type="text" placeholder="Email Adress">
+                    <button><i class="fas fa-location-arrow"></i></button>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <div class="container">
+                <div class="row justify-content-between">
+                    <div class="link">
+                        <span>© 2019</span>
+                        <a href="">Theme Vessel.</a>
+                        <span>Trademarks and brands are the property of their respective owners.</span>
+                    </div>
+                    <div class="sosial">
+                        <ul>
+                            <li>
+                                <a href="">
+                                    <i class="fab fa-facebook-f"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <i class="fab fa-twitter"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <i class="fab fa-google-plus-g"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <i class="fas fa-rss"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <i class="fab fa-linkedin-in"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- footer end -->
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://kit.fontawesome.com/4a0d6e395d.js" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-countto/1.2.0/jquery.countTo.min.js"></script>
+    <script src="OwlCarousel2-2.3.4/dist/owl.carousel.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>

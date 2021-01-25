@@ -1,0 +1,872 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="OwlCarousel2-2.3.4/dist/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="shortcut icon" href="img/favicon.jpg" type="image/x-icon">
+    <title>Home</title>
+</head>
+
+<body>
+    <!-- header section -->
+    <header>
+        <!-- responsive navbar -->
+        <div class="responsive-navbar">
+            <div class="container">
+                <div class="row justify-content-between">
+                    <div class="logo">
+                        <img src="img/logo/black-logo.png" alt="logo">
+                    </div>
+                    <div class="burger-button">
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                    </div>
+                </div>
+            </div>
+            <div class="nav-list">
+                <ul>
+                    <li>
+                        <a href="index.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="about.html">About</a>
+                    </li>
+                    <li>
+                        <a href="blog.html">Blog</a>
+                    </li>
+                    <li>
+                        <a href="contact.html">Contact Us</a>
+                    </li>
+                    <li class="page-responsive">
+                        Other <i class="fas fa-caret-down ml-2"></i>
+                        <div class="dropDownList">
+                            <div class="left-down">
+                                <ul>
+                                    <li>
+                                        <a href="candidate.html">Candidates</a>
+                                    </li>
+                                    <li>
+                                        <a href="employer.html">Employers</a>
+                                    </li>
+                                    <li>
+                                        <a href="job.html">Jobs</a>
+                                    </li>
+                                    <li>
+                                        <a href="login.html">Login</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="login.html"><i class="fas fa-sign-out-alt mr-2"></i> Sign In</a>
+                    </li>
+                    <li>
+                        <a href="admin/post.html"><i class="fas fa-plus mr-2"></i> Post a Job</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!-- responsive navbar -->
+
+        <!-- navbar -->
+        <div class="navbarSection">
+            <div class="container">
+                <div class="row">
+                    <div class="col-2 logo">
+                        <img src="img/logo/logo.png" alt="logo">
+                    </div>
+                    <div class="col-6 navbarList">
+                        <ul>
+                            <li>
+                                <a href="index.html">Home</a>
+                            </li>
+                            <li>
+                                <a href="about.html">About Us</a>
+                            </li>
+                            <li>
+                                <a href="blog.html">Blogs</a>
+                            </li>
+                            <li>
+                                <a href="contact.html">Contact Us</a>
+                            </li>
+                            <li class="page">
+                                Other
+                                <div class="dropDownList">
+                                    <div class="centre-down">
+                                        <ul>
+                                            <li>
+                                                <a href="candidate.html">Candidates</a>
+                                            </li>
+                                            <li>
+                                                <a href="employer.html">Employers</a>
+                                            </li>
+                                            <li>
+                                                <a href="job.html">Jobs</a>
+                                            </li>
+                                            <li>
+                                                <a href="login.html">Login</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="offset-1 col-3 d-flex">
+                        <div class="SignIn">
+                            <a href="login.html"><i class="fas fa-sign-out-alt"></i> Sign In</a>
+                        </div>
+                        <div class="addPost">
+                            <a href="admin/post.html" class="btnPost"> Post a Job</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- navbar -->
+
+        <!-- fixed navbar -->
+        <div class="fixed-navbar">
+            <div class="container">
+                <div class="row">
+                    <div class="col-2 logo">
+                        <img src="img/logo/black-logo.png" alt="logo">
+                    </div>
+                    <div class="col-6 navbarList">
+                        <ul>
+                            <li>
+                                <a href="index.html">Home</a>
+                            </li>
+                            <li>
+                                <a href="about.html">About Us</a>
+                            </li>
+                            <li>
+                                <a href="blog.html">Blogs</a>
+                            </li>
+                            <li>
+                                <a href="contact.html">Contact Us</a>
+                            </li>
+                            <li class="page">
+                                Other
+                                <div class="dropDownList">
+                                    <div class="centre-down">
+                                        <ul>
+                                            <li>
+                                                <a href="candidate.html">Candidates</a>
+                                            </li>
+                                            <li>
+                                                <a href="employer.html">Employers</a>
+                                            </li>
+                                            <li>
+                                                <a href="job.html">Jobs</a>
+                                            </li>
+                                            <li>
+                                                <a href="login.html">Login</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="offset-1 col-3 d-flex">
+                        <div class="SignIn">
+                            <a href="login.html"><i class="fas fa-sign-out-alt"></i> Sign In</a>
+                        </div>
+                        <div class="addPost">
+                            <a href="admin/post.html" class="btnPost"> Post a Job</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- fixed navbar -->
+
+    </header>
+    <!-- header section -->
+
+    <!-- banner-area -->
+    <div class="banner-area">
+        <img src="img/banner/banner-2.jpg" alt="banner">
+        <div class="content">
+            <h1>Find your job</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
+        </div>
+        <div class="search-area">
+            <form id="search" class="form-group">
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-4 col-md-6 col-sm-8">
+                            <input type="text" class="form-control" placeholder="Job title, Keywords or company name">
+                        </div>
+                        <div class="col-4 location-area">
+                            <div id="location">
+                                <div>location</div>
+                                <i class="fas fa-caret-down"></i>
+                            </div>
+                            <ul class="selection">
+                                <li>location</li>
+                                <li>New York</li>
+                                <li>Australia</li>
+                                <li>Canada</li>
+                                <li>London</li>
+                            </ul>
+                        </div>
+                        <div class="col-md-2 col-sm-4">
+                            <button class="findJob">Find a Job</button>
+                            <button class="search-icon">
+                                <i class="fas fa-search"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+        <div class="clock">
+            <h2>The time is now</h2>
+            <div class="time">
+                <div>
+                    <span class="hour">00</span>
+                    <span>Hours</span>
+                </div>
+                <div>
+                    <span class="minute">00</span>
+                    <span>Minutes</span>
+                </div>
+                <div>
+                    <span class="second">00</span>
+                    <span>Seconds</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- banner-area -->
+
+    <!-- categories end -->
+    <div class="categories">
+        <div class="container">
+            <div class="content">
+                <div class="title">
+                    <h2>Popular Categories</h2>
+                </div>
+                <div class="description">
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                </div>
+            </div>
+            <div class="job-category">
+                <div class="row">
+                    <div class="col-lg-3 col-md-4 col-sm-6">
+                        <div class="icon">
+                            <i class="fas fa-hand-holding-usd"></i>
+                        </div>
+                        <div class="name">
+                            Accounting / Finance
+                        </div>
+                        <div class="count">
+                            (2143)
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-6">
+                        <div class="icon">
+                            <i class="fas fa-graduation-cap"></i>
+                        </div>
+                        <div class="name">
+                            Education Training
+                        </div>
+                        <div class="count">
+                            (742)
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-6">
+                        <div class="icon">
+                            <i class="fas fa-bullhorn"></i>
+                        </div>
+                        <div class="name">
+                            Digital Marketing
+                        </div>
+                        <div class="count">
+                            (341)
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-6">
+                        <div class="icon">
+                            <i class="fas fa-broadcast-tower"></i>
+                        </div>
+                        <div class="name">
+                            Telecommunication
+                        </div>
+                        <div class="count">
+                            (410)
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-6">
+                        <div class="icon">
+                            <i class="fas fa-shopping-bag"></i>
+                        </div>
+                        <div class="name">
+                            Sales & Marketing
+                        </div>
+                        <div class="count">
+                            (23)
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-6">
+                        <div class="icon">
+                            <i class="fas fa-pencil-alt"></i>
+                        </div>
+                        <div class="name">
+                            Writing & Translations
+                        </div>
+                        <div class="count">
+                            (43)
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-6">
+                        <div class="icon">
+                            <i class="fas fa-user-md"></i>
+                        </div>
+                        <div class="name">
+                            Health
+                        </div>
+                        <div class="count">
+                            (35)
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-6">
+                        <div class="icon">
+                            <i class="fas fa-truck"></i>
+                        </div>
+                        <div class="name">
+                            Transportation / Logistics
+                        </div>
+                        <div class="count">
+                            (7)
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- categories end -->
+
+    <!-- recent jobs start -->
+
+    <div class="recent-jobs">
+        <div class="container">
+            <div class="content">
+                <div class="title">
+                    <h2>Recent Jobs</h2>
+                </div>
+                <div class="description">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                </div>
+            </div>
+            <div class="job-list">
+                <div class="job-about">
+                    <div class="row">
+                        <div class="col-md-2 col-sm-4">
+                            <div class="company-logo">
+                                <img src="img/company-logo/logo-1.png" alt="logo">
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-sm-8">
+                            <div class="name">
+                                <h5>Restaurant General Manager</h5>
+                            </div>
+                            <div class="add-info">
+                                <div class="row">
+                                    <p><i class="fas fa-briefcase"></i> Hotel</p>
+                                    <p><i class="fas fa-map-marker-alt"></i> New York City</p>
+                                    <p><i class="far fa-clock"></i> Full Time</p>
+                                </div>
+                            </div>
+                            <div class="deadline">
+                                <p>Deadline: Jan 31, 2019</p>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="row">
+                                <div class="favorite">
+                                    <i class="far fa-heart"></i>
+                                </div>
+                                <div class="apply">
+                                    <a href="" class="btn-apply">Apply Now</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="job-about">
+                    <div class="row">
+                        <div class="col-md-2 col-sm-4">
+                            <div class="company-logo">
+                                <img src="img/company-logo/logo-2.png" alt="logo">
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-sm-8">
+                            <div class="name">
+                                <h5>Marketing Director</h5>
+                            </div>
+                            <div class="add-info">
+                                <div class="row">
+                                    <p><i class="fas fa-briefcase"></i> Red</p>
+                                    <p><i class="fas fa-map-marker-alt"></i> New York City</p>
+                                    <p><i class="far fa-clock"></i> Part Time</p>
+                                </div>
+                            </div>
+                            <div class="deadline">
+                                <p>Deadline: Jan 31, 2019</p>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="row">
+                                <div class="favorite">
+                                    <i class="far fa-heart"></i>
+                                </div>
+                                <div class="apply">
+                                    <a href="" class="btn-apply">Apply Now</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="job-about">
+                    <div class="row">
+                        <div class="col-md-2 col-sm-4">
+                            <div class="company-logo">
+                                <img src="img/company-logo/logo-3.png" alt="logo">
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-sm-8">
+                            <div class="name">
+                                <h5>Dhaka Event Support Specialist</h5>
+                            </div>
+                            <div class="add-info">
+                                <div class="row">
+                                    <p><i class="fas fa-briefcase"></i> Xero</p>
+                                    <p><i class="fas fa-map-marker-alt"></i> New York City</p>
+                                    <p><i class="far fa-clock"></i> Temporary</p>
+                                </div>
+                            </div>
+                            <div class="deadline">
+                                <p>Deadline: Jan 31, 2019</p>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="row">
+                                <div class="favorite">
+                                    <i class="far fa-heart"></i>
+                                </div>
+                                <div class="apply">
+                                    <a href="" class="btn-apply">Apply Now</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="job-about">
+                    <div class="row">
+                        <div class="col-md-2 col-sm-4">
+                            <div class="company-logo">
+                                <img src="img/company-logo/logo-4.png" alt="logo">
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-sm-8">
+                            <div class="name">
+                                <h5>Green Development Marketer</h5>
+                            </div>
+                            <div class="add-info">
+                                <div class="row">
+                                    <p><i class="fas fa-briefcase"></i> Zooms</p>
+                                    <p><i class="fas fa-map-marker-alt"></i> New York City</p>
+                                    <p><i class="far fa-clock"></i> Full Time</p>
+                                </div>
+                            </div>
+                            <div class="deadline">
+                                <p>Deadline: Jan 31, 2019</p>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="row">
+                                <div class="favorite">
+                                    <i class="far fa-heart"></i>
+                                </div>
+                                <div class="apply">
+                                    <a href="" class="btn-apply">Apply Now</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="job-about">
+                    <div class="row">
+                        <div class="col-md-2 col-sm-4">
+                            <div class="company-logo">
+                                <img src="img/company-logo/logo-5.png" alt="logo">
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-sm-8">
+                            <div class="name">
+                                <h5>Application Developer For Mobile</h5>
+                            </div>
+                            <div class="add-info">
+                                <div class="row">
+                                    <p><i class="fas fa-briefcase"></i> Hexagon</p>
+                                    <p><i class="fas fa-map-marker-alt"></i> New York City</p>
+                                    <p><i class="far fa-clock"></i> Part Time</p>
+                                </div>
+                            </div>
+                            <div class="deadline">
+                                <p>Deadline: Jan 31, 2019</p>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="row">
+                                <div class="favorite">
+                                    <i class="far fa-heart"></i>
+                                </div>
+                                <div class="apply">
+                                    <a href="" class="btn-apply">Apply Now</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="browse-job">
+                <a href="" class="btn-browse">Browse All Jobs</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- recent jobs end -->
+
+    <!-- statistics start -->
+    <div class="statistics">
+        <div class="container">
+            <div class="row justify-content-center align-items-center">
+                <div class="col-lg-3 col-md-6">
+                    <div class="member">
+                        <i class="far fa-user"></i>
+                        <h1 class="counter text-white" data-to="1967">1967</h1>
+                        <p class="text-white">Members</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="job">
+                        <i class="fas fa-briefcase"></i>
+                        <h1 class="counter text-white" data-to="667">667</h3>
+                            <p class="text-white">Jobs</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="resume">
+                        <i class="far fa-file-alt"></i>
+                        <h1 class="counter text-white" data-to="475">475</h1>
+                        <p class="text-white">Resumes</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="company">
+                        <i class="fas fa-industry"></i>
+                        <h1 class="counter text-white" data-to="475">475</h1>
+                        <p class="text-white">Companies</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- statistics end -->
+
+
+    <!-- partnership companies start -->
+    <div class="partnership-company">
+        <div class="container">
+            <div class="content">
+                <div class="title">
+                    <h2>Companies We've Helped</h2>
+                </div>
+                <div class="description">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                </div>
+            </div>
+            <div class="row owl-carousel">
+                <div class="brand">
+                    <img src="img/brand/brand-1.png" alt="">
+                </div>
+                <div class="brand">
+                    <img src="img/brand/brand-2.png" alt="">
+                </div>
+                <div class="brand">
+                    <img src="img/brand/brand-3.png" alt="">
+                </div>
+                <div class="brand">
+                    <img src="img/brand/brand-4.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- partnership companies end -->
+
+    <!-- latest blogs -->
+    <div class="blog-area">
+        <div class="container">
+            <div class="content">
+                <div class="title">
+                    <h2>Latest Blog</h2>
+                </div>
+                <div class="description">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                </div>
+            </div>
+            <div class="row owl-carousel owl-theme">
+                <div class="blog">
+                    <div class="image">
+                        <img src="img/blog/blog-1.jpg" alt="">
+                        <div class="date">
+                            <p class="text-white">23</p>
+                            <p class="text-white">Feb</p>
+                        </div>
+                    </div>
+                    <div class="blog-body">
+                        <div class="title">
+                            <h3><a href="">Back To Work Vacantion</a></h3>
+                        </div>
+                        <div class="features">
+                            <p><i class="fas fa-user"></i> Admin</p>
+                            <p><i class="far fa-comment-dots"></i> 27</p>
+                            <p><i class="far fa-heart"></i>27</p>
+                        </div>
+                        <div class="description">
+                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
+                            been the
+                        </div>
+                    </div>
+                </div>
+                <div class="blog">
+                    <div class="image">
+                        <img src="img/blog/blog-1.jpg" alt="">
+                        <div class="date">
+                            <p class="text-white">23</p>
+                            <p class="text-white">Feb</p>
+                        </div>
+                    </div>
+                    <div class="blog-body">
+                        <div class="title">
+                            <h3><a href="">Back To Work Vacantion</a></h3>
+                        </div>
+                        <div class="features">
+                            <p><i class="fas fa-user"></i> Admin</p>
+                            <p><i class="far fa-comment-dots"></i> 27</p>
+                            <p><i class="far fa-heart"></i>27</p>
+                        </div>
+                        <div class="description">
+                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
+                            been the
+                        </div>
+                    </div>
+                </div>
+                <div class="blog">
+                    <div class="image">
+                        <img src="img/blog/blog-1.jpg" alt="">
+                        <div class="date">
+                            <p class="text-white">23</p>
+                            <p class="text-white">Feb</p>
+                        </div>
+                    </div>
+                    <div class="blog-body">
+                        <div class="title">
+                            <h3><a href="">Back To Work Vacantion</a></h3>
+                        </div>
+                        <div class="features">
+                            <p><i class="fas fa-user"></i> Admin</p>
+                            <p><i class="far fa-comment-dots"></i> 27</p>
+                            <p><i class="far fa-heart"></i>27</p>
+                        </div>
+                        <div class="description">
+                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
+                            been the
+                        </div>
+                    </div>
+                </div>
+                <div class="blog">
+                    <div class="image">
+                        <img src="img/blog/blog-1.jpg" alt="">
+                        <div class="date">
+                            <p class="text-white">23</p>
+                            <p class="text-white">Feb</p>
+                        </div>
+                    </div>
+                    <div class="blog-body">
+                        <div class="title">
+                            <h3><a href="">Back To Work Vacantion</a></h3>
+                        </div>
+                        <div class="features">
+                            <p><i class="fas fa-user"></i> Admin</p>
+                            <p><i class="far fa-comment-dots"></i> 27</p>
+                            <p><i class="far fa-heart"></i>27</p>
+                        </div>
+                        <div class="description">
+                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
+                            been the
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="icons left">
+                <i class="fas fa-angle-left"></i>
+            </div>
+            <div class="icons right">
+                <i class="fas fa-angle-right"></i>
+            </div>
+        </div>
+    </div>
+    <!-- latest blogs -->
+
+    <!-- back to top -->
+    <div class="back-to-top">
+        <i class="fas fa-chevron-up"></i>
+    </div>
+    <!-- back to top -->
+
+    <!-- footer start -->
+    <footer>
+        <div class="container">
+            <div class="footer-menu row">
+                <div class="col-lg-3 col-md-4 col-sm-6 mt-3">
+                    <div class="logo">
+                        <img src="img/logo/logo.png" alt="logo">
+                    </div>
+                    <div class="adress">
+                        <i class="fas fa-map-marker-alt"></i> 20/F Green Road, Dhanmondi, Dhaka
+                    </div>
+                    <div class="envelope">
+                        <i class="far fa-envelope"></i> info@themevessel.com
+                    </div>
+                    <div class="phone">
+                        <i class="fas fa-phone-alt"></i> +0477 85X6 552
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-4 col-sm-6 mt-3">
+                    <h3>Helpful Links</h3>
+                    <ul>
+                        <li>
+                            <a href="">About Us</a>
+                        </li>
+                        <li>
+                            <a href="">Contact Us</a>
+                        </li>
+                        <li>
+                            <a href="">Terms & Conditions</a>
+                        </li>
+                        <li>
+                            <a href="">Privacy Policy</a>
+                        </li>
+                        <li>
+                            <a href="">Blog</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-lg-2 col-md-4 col-sm-6 mt-3">
+                    <h3>Job Seekers</h3>
+                    <ul>
+                        <li>
+                            <a href="">Create Account</a>
+                        </li>
+                        <li>
+                            <a href="">Career Counseling</a>
+                        </li>
+                        <li>
+                            <a href="">My Oficiona</a>
+                        </li>
+                        <li>
+                            <a href="">FAQ</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-lg-2 col-md-4 col-sm-6 mt-3">
+                    <h3>Employers</h3>
+                    <ul>
+                        <li>
+                            <a href="">Create Account</a>
+                        </li>
+                        <li>
+                            <a href="">Products $ Service</a>
+                        </li>
+                        <li>
+                            <a href="">Post a Task</a>
+                        </li>
+                        <li>
+                            <a href="">FAQ</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md mt-3 sendEmail">
+                    <h3>Newsletter</h3>
+                    <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit.</p>
+                    <input type="text" placeholder="Email Adress">
+                    <button><i class="fas fa-location-arrow"></i></button>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <div class="container">
+                <div class="row justify-content-between">
+                    <div class="link">
+                        <span>© 2019</span>
+                        <a href="">Theme Vessel.</a>
+                        <span>Trademarks and brands are the property of their respective owners.</span>
+                    </div>
+                    <div class="sosial">
+                        <ul>
+                            <li>
+                                <a href="">
+                                    <i class="fab fa-facebook-f"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <i class="fab fa-twitter"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <i class="fab fa-google-plus-g"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <i class="fas fa-rss"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <i class="fab fa-linkedin-in"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- footer end -->
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://kit.fontawesome.com/4a0d6e395d.js" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-countto/1.2.0/jquery.countTo.min.js"></script>
+    <script src="OwlCarousel2-2.3.4/dist/owl.carousel.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
