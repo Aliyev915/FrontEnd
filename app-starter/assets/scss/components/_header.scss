@@ -1,0 +1,62 @@
+header{
+    @include flexbox;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    width: 100%;
+
+    .wrapper{
+        width: 100%;
+        background-color: #fff;
+        padding: $spacing*3 $spacing*5;
+    }
+
+    .logo{
+        width: 50%;
+        a{
+            color: $secondary-background;
+            text-transform: uppercase;
+            font-size: 3rem;
+            font-weight: 700;
+            span{
+                color: $primary-background;
+            }
+        }
+    }
+    nav{
+        width: 50% !important;
+        ul{
+            @include flexbox;
+            li{
+                a{
+                    color: $primary-color;
+                    font-size: 1.8rem;
+                }
+            }
+        }
+    }
+    .nav-responsive{
+        display: none;
+        width: 50%;
+        text-align: right;
+        font-size: 3rem;
+    }
+}
+
+// responsive
+
+@media screen and (max-width:768px){
+    header{
+        nav{
+            display:none;
+        }
+        .nav-responsive{
+            display: block;
+        }
+        .logo{
+            a{
+                font-size: 1.8rem;
+            }
+        }
+    }
+}

@@ -1,0 +1,15 @@
+.button{
+    padding: $spacing*2 $spacing*2.5;
+    border-radius: $primary-border-radius;
+    border: $primary-border;
+    color: white;
+    font-weight: 700;
+    background: $primary-background;
+    text-align: center;
+    font-size: 1.8rem;
+    margin-top:2rem;
+    &:hover{
+        background: transparent;
+        border-color: #fff #030303 #fff #030303;
+    }
+}

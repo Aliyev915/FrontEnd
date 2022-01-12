@@ -1,0 +1,83 @@
+@font-face {
+    font-family: basic_font;
+    src: url(../fonts/source_sans_pro/SourceSansPro-Black.ttf) type("ttf");
+}
+@font-face {
+    font-family: secondary_font;
+    src: url(../fonts/unica_one/UnicaOne-Regular.ttf);
+}
+html{
+    font-family: basic_font,Verdana, Arial, Helvetica, sans-serif;
+    font-size: 62.5%;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+h1{
+    font-size: 3.5rem;
+}
+
+h2{
+    font-size: 3rem;
+}
+h3{
+    font-size: 2.5rem;
+}
+h4{
+    font-size: 2rem;
+}
+h5{
+    font-size: 1.5rem;
+}
+h6{
+    font-size: 1.2rem;
+}
+
+p,
+li,
+a{
+    font-size: 1.4rem;
+}
+
+h1{
+    font-size: 5rem;
+    letter-spacing: 2px;
+    padding-bottom: 1rem;
+    margin-bottom: 0;
+    font-weight: 500;
+    color: #fff;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+nav,
+button,
+.logo a{
+    font-family: secondary_font;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+
+p{
+    color: #f0f0f0;
+    letter-spacing: 1px;
+    font-size: 1.8rem;
+    font-weight: 300;
+    line-height: 3rem;
+}

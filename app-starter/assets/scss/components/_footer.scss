@@ -1,0 +1,26 @@
+footer{
+    padding: 6rem 0;
+    background: $dark;
+    p{
+        padding-top: 1.6rem;
+        font-size: 2rem;
+        line-height: 3rem;
+        font-weight: 300;
+        color: #999;
+        a{
+            color:#535bd4;
+        }
+    }
+    .icons{
+        padding-top: 1.6rem;
+        display: flex;
+        justify-content: space-around;
+        color: #666;
+        i{
+            font-size: 1.6rem;
+            &:not(:last-child){
+                margin-right: 1rem;
+            }
+        }
+    }
+}

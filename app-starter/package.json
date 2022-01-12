@@ -1,0 +1,24 @@
+{
+  "name": "responsive",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "watch:sass":"node-sass assets/scss/main.scss assets/css/style.css -w",
+    "deserver":"live-server",
+    "start":"npm-run-all --parallel deserver watch:sass",
+    "compile:sass":"node-sass assets/scss/main.scss assets/css/style.css",
+    "prefix:css":"postcss -use autoprefixer -b 'last 10 version' assets/css/style.css -o assets/css/style.prefix.css",
+    "compress:css":"node-sass assets/css/style.prefix.css assets/css/style.compressed.css --output-style compressed"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^10.3.1",
+    "live-server": "^1.2.1",
+    "node-sass": "^6.0.1",
+    "npm-run-all": "^4.1.5",
+    "postcss": "^8.3.6"
+  }
+}
